@@ -14,11 +14,11 @@ Notes:
 
 Goal: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
-· returning indices instead of the value at the index
-· find a current value that equals the target - x (using subtraction)
-· x = target - current
-· current starts as nums[0] (placeholder)
-· use a dictionary to store the indices visited
+-returning indices instead of the value at the index
+-find a current value that equals the target - x (using subtraction)
+-x = target - current
+-current starts as nums[0] (placeholder)
+-use a dictionary to store the indices visited
 
 Solution: see attached .py file (Python 3)
 
