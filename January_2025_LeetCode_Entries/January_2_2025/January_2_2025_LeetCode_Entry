@@ -27,5 +27,7 @@ Time Complexity:
 - The string conversion and reverse comparison (if str(x) == str(x)[::-1]:) can be further broken down.
 - The conversion of x to a string(str(x)) takes O(n) time, where n is the number of digits in x.
 - Reversing the string (str(x)[::-1]) takes O(n) time since each character is accessed only once.
-- The string comparison (==) compares two strings of length n and takes O(n) time, as every character in both strings needs to be checked.
-- Summary: Since the dominant operations in this function involve converting the integer to a string, reversing the string, and comparing it, the overall time complexity is O(n).
+- The string comparison (==) compares two strings of length n and takes O(n) time, 
+as every character in both strings needs to be checked.
+- Summary: Since the dominant operations in this function involve converting the integer to a string, 
+reversing the string, and comparing it, the overall time complexity is O(n).
