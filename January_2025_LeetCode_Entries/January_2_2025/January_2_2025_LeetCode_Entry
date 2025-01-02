@@ -20,3 +20,12 @@ palindrome
 - [::1] starting from the beginning and going to the end with a step of 1, same as [0:len(sequence):1]
 - [::-1] start at the end and going towards the beginning with a step of -1, effectively reversing the sequence
 - Note: if the parameter is an integer, use str() conversion
+
+Time Complexity:
+
+- The negative number check (if x < 0:) is a constant-time operation: O(1).
+- The string conversion and reverse comparison (if str(x) == str(x)[::-1]:) can be further broken down.
+- The conversion of x to a string(str(x)) takes O(n) time, where n is the number of digits in x.
+- Reversing the string (str(x)[::-1]) takes O(n) time since each character is accessed only once.
+- The string comparison (==) compares two strings of length n and takes O(n) time, as every character in both strings needs to be checked.
+- Summary: Since the dominant operations in this function involve converting the integer to a string, reversing the string, and comparing it, the overall time complexity is O(n).
