@@ -1,0 +1,40 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 1 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 1, 2025
+
+LeetCode Problem: TwoSum
+Link: https://leetcode.com/problems/two-sum/description/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+- returning indices instead of the value at the index
+- find a current value that equals the target - x (using subtraction)
+- x = target - current
+- current starts as nums[0] (placeholder)
+- use a dictionary to store the indices visited
+
+Time Complexity:
+
+- The for loop iterates through nums once. 
+- This is an O(n) operation where n is the length of the nums list.
+- The if variable_x in num_indices operation is an average O(1) operation because dictionary lookups in Python use a hash table, which has constant-time complexity for lookups in the average case.
+- Adding an element to the dictionary is also an average O(1) operation.
+- Summary: The loop runs n times, and for each iteration, the dictionary operations (lookup and insertion) are both O(1).
+Therefore, the total time complexity is O(n).
+
+**Note:** Each element is processed once: either it is checked against the dictionary (constant time) or added to it (constant time). There are no nested loops or recursive calls that would increase the number of operations beyond n.
+
+Space Complexity:
+
+- The space complexity is O(n) because in the worst case (no two numbers add up to the target), all elements of the nums list will be added to the dictionary.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
