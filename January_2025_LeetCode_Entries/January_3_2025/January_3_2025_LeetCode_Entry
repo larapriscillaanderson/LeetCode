@@ -20,3 +20,12 @@ or false otherwise.
 - the other way uses L and R pointers
 - run a while loop while the L != R
 - end the loop with incrementing L and decrementing R
+
+Time Complexity: 
+
+- The isalnum() function is designed to check a single character to determine if it’s alphanumeric.
+Since it doesn’t depend on the size of the string or other variables, 
+its execution time remains constant O(1).
+- After the loop finishes, there is a check to see if new_string is equal to its reverse. 
+- Reversing a string takes O(n) time, where n is the length of the string. 
+- Summary: Thus, the overall time complexity is O(n), where n is the length of the input string s.
