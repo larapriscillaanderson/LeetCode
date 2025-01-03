@@ -26,8 +26,7 @@ Time Complexity:
 - This is an O(n) operation where n is the length of the nums list.
 - The if variable_x in num_indices operation is an average O(1) operation because dictionary lookups in Python use a hash table, which has constant-time complexity for lookups in the average case.
 - Adding an element to the dictionary is also an average O(1) operation.
-- Summary: The loop runs n times, and for each iteration, the dictionary operations (lookup and insertion) are both O(1).
-Therefore, the total time complexity is O(n).
+- Summary: The loop runs n times, and for each iteration, the dictionary operations (lookup and insertion) are both O(1). Therefore, the total time complexity is O(n).
 
 **Note:** Each element is processed once: either it is checked against the dictionary (constant time) or added to it (constant time). There are no nested loops or recursive calls that would increase the number of operations beyond n.
 
