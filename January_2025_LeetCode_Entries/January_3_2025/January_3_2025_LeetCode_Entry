@@ -1,0 +1,22 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 3 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 3, 2025
+
+LeetCode Problem: Valid Palindrome
+Link: https://leetcode.com/problems/valid-palindrome/ 
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given a string s, return true if it is a palindrome, 
+or false otherwise.
+
+- there are 2 ways to solve this, one is using .alnum
+- the other is by using your own alpha numeric checker with ASCII symbols A-Z, a-z, 0-9 
+- the other way uses L and R pointers
+- run a while loop while the L != R
+- end the loop with incrementing L and decrementing R
