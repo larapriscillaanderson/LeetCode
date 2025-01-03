@@ -13,8 +13,7 @@ Level: Easy
 **Notes:**
 
 Goal: Given an integer x, return true if x is a 
-palindrome
-, and false otherwise.
+palindrome, and false otherwise.
 
 - [::-1] this is [start:end: step]
 - [::1] starting from the beginning and going to the end with a step of 1, same as [0:len(sequence):1]
@@ -31,3 +30,19 @@ Time Complexity:
 as every character in both strings needs to be checked.
 - Summary: Since the dominant operations in this function involve converting the integer to a string, 
 reversing the string, and comparing it, the overall time complexity is O(n).
+
+Space Complexity:
+
+- The string conversion of x (str(x)) requires allocating space for a new string.
+- The size of this string is proportional to the number of digits in x, which is denoted as n.
+- This approach requires O(n) space.
+- Creating the reversed string (str(x)[::-1]) also requires allocating new memory of size n,
+where n is the number of digits in x. This space complexity is O(n).
+- Comparing two strings (==) does not require additional space. The space complexity is O(1).
+- Summary: The dominant space usage comes from creating the string representation of x,
+x and its reversed version. Therefore, the overall space complexity is O(n), where n is
+the number of digits in x.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
