@@ -43,7 +43,8 @@ new_string will end up being the same length as s.
 - is also as long as new_string, taking up an additional O(n) space.
 - The Boolean result (return new_string == new_string[::-1]) checks if the two strings are equal.
 - It doesn't require additional storage, just returns True or False value, O(1).
-- Summary: The dominant factor here is the space used by new_string, O(n), and its reversed copy, O(n), so the total space complexity is: O(n).
+- Summary: The dominant factor here is the space used by new_string, O(n), and its reversed copy, 
+O(n), so the total space complexity is: O(n).
 
 Solution: see attached .py file (Python 3)
 
