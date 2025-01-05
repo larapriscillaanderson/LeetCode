@@ -27,7 +27,8 @@ Time Complexity:
 - Building the dictionary involves iterating through the input array nums.
 - Each check (num in count) and operation (count[num] += 1 or count[num] = 1) is constant time O(1).
 - Thus, iterating through all n elements takes O(n) time.
-- After the loop, have to iterate through the dictionary’s key-value pairs using .items() to find the number with a count of 1.
+- After the loop, have to iterate through the dictionary’s key-value pairs using .items() to find the 
+number with a count of 1.
 - In the worst case, this involves checking k unique elements, where k ≤ n.
 - Checking all k keys has a time complexity of O(k), which simplifies to O(n) since k ≤ n.
 - Summary: The total time complexity is O(n) + O(n) = O(n), where n is the length of 
@@ -42,7 +43,8 @@ store n unique keys, worst case scenario.
 - There are no additional data structures or temporary variables storing significant data.
 - Only the count dictionary and simple variables for iteration are used, 
 - so the extra space beyond the dictionary is constant, O(1).
-- Summary: The dominant factor here is the space used by the count dictionary, which can grow to a size of n in the worst case. Therefore, the total space complexity is O(n).
+- Summary: The dominant factor here is the space used by the count dictionary, which can 
+grow to a size of n in the worst case. Therefore, the total space complexity is O(n).
 
 Solution: see attached .py file (Python 3)
 
