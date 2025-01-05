@@ -1,0 +1,23 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 4 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 4, 2025
+
+LeetCode Problem: Single Number
+Link: https://leetcode.com/problems/single-number/  
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given a non-empty array of integers nums, every element appears twice except for one. 
+Find that single one.
+
+You must implement a solution with a linear runtime complexity and use only constant extra space.
+
+- there are 2 ways to solve this, one is using XOR
+- the other is by using a dictionary to store counts
+- if the number exists in the dictionary, then increment the count
+- otherwise the initial count is 1
