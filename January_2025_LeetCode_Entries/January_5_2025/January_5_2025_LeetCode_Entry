@@ -12,7 +12,8 @@ Level: Easy
 
 **Notes:**
 
-Goal: Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
+Goal: Given a non-negative integer x, return the square root of x rounded down to the nearest integer. 
+The returned integer should be non-negative as well.
 
 You must not use any built-in exponent function or operator.
 
@@ -21,7 +22,8 @@ For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
 - a binary search approach can be used to solve this problem
 - the first leg of the problem must tackle simple square roots, such as 0 and 1
 - if the number is either 0 or 1, return the number
-- binary search is performed between 1 and x because the square root of any number x > 1 will always lie in this range
+- binary search is performed between 1 and x because the square root of any number x > 1 
+will always lie in this range
 - the loop will continue as long as the left remains of a lesser value than the right
 - the midpoint calculation will be found through the current search range mid = left + (right - left) // 2
 - if mid^2 == x, you've found the square root and return it
@@ -36,4 +38,20 @@ Time Complexity:
 - Midpoint calculation: mid = left + (right - left) // 2
 - Comparison check: mid * mid == x, mid * mid < x, mid * mid > x
 - These are constant time operations, O(1).
-- Summary: Because the search space is halved in each iteration, this results in a logarithmic time complexity, O(logx) where x is the input number.
+- Summary: Because the search space is halved in each iteration, this results in a 
+logarithmic time complexity, O(logx) where x is the input number.
+
+Space Complexity: 
+
+- The solution does not use any additional data structures such as dictionaries or 
+lists to store intermediate results.
+- Only a few variables are used: left, right, mid, and a couple of temporary variables 
+for calculations and comparisons.
+- Each of these variables requires a constant amount of space, O(1).
+- There are no recursive calls or extra allocations that would increase the space usage.
+- Summary: The total space complexity is O(1), since the algorithm uses a fixed amount of space 
+regardless of the size of the input x.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
