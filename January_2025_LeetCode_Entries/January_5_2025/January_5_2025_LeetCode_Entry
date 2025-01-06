@@ -1,0 +1,31 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 5 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 5, 2025
+
+LeetCode Problem: Sqrt(x)
+Link: https://leetcode.com/problems/sqrtx/ 
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.
+
+You must not use any built-in exponent function or operator.
+
+For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
+
+- a binary search approach can be used to solve this problem
+- the first leg of the problem must tackle simple square roots, such as 0 and 1
+- if the number is either 0 or 1, return the number
+- binary search is performed between 1 and x because the square root of any number x > 1 will always lie in this range
+- the loop will continue as long as the left remains of a lesser value than the right
+- the midpoint calculation will be found through the current search range mid = left + (right - left) // 2
+- if mid^2 == x, you've found the square root and return it
+- if mid^2 < x, the square root lies to the right of mid, then left becomes mid + 1
+- otherwise, the square root lies to the left of mid, then right becomes mid - 1
+- when the loop ends, right will be the largest integer whose square is less than or equal to x
+
