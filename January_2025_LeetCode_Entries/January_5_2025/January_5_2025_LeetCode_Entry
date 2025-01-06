@@ -29,3 +29,11 @@ For example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.
 - otherwise, the square root lies to the left of mid, then right becomes mid - 1
 - when the loop ends, right will be the largest integer whose square is less than or equal to x
 
+Time Complexity: 
+
+- The binary search operates on a range from 1 to x, continuously halving the search space at each step.
+- For each iteration, there is a midpoint calculation, and a comparison check.
+- Midpoint calculation: mid = left + (right - left) // 2
+- Comparison check: mid * mid == x, mid * mid < x, mid * mid > x
+- These are constant time operations, O(1).
+- Summary: Because the search space is halved in each iteration, this results in a logarithmic time complexity, O(logx) where x is the input number.
