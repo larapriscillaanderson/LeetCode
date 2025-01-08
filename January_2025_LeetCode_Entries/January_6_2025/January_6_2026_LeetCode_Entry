@@ -38,3 +38,16 @@ and may also insert an additional digit at the beginning.
 - The insertion operation at the start of the array takes linear time, O(n), 
 but it occurs only once.
 - Summary: The time complexity is O(n), where n is the number of digits in the input array.
+
+Space Complexity: 
+
+- The solution modifies the input array digits in place, without creating additional data structures such as new arrays or lists to store intermediate results.
+- A single carry variable is used to handle the increment operation and potential overflow, requiring constant space, O(1).
+- The total variable used for calculations during each iteration is also a temporary variable that requires constant space, O(1).
+- The only additional space usage occurs in the worst case when inserting a new digit at the beginning of the array. 
+- However, this operation modifies the existing array rather than creating a new one.
+- Summary: The total space complexity is O(1), since the algorithm uses a fixed amount of additional space regardless of the size of the input array.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
