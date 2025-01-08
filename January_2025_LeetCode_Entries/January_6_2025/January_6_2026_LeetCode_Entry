@@ -24,3 +24,17 @@ Increment the large integer by one and return the resulting array of digits.
 - this determines if there’s an overflow to handle in the next significant digit
 - if there’s still a carry left after processing all digits, insert it at the beginning of the array
 - the updated digits array represents the incremented number
+
+Time Complexity: 
+
+- The solution involves a single pass through the digits array, 
+starting from the least significant digit and moving to the most significant digit.
+- Each iteration performs constant time operations.
+- Addition of carry to the current digit.
+- Update of the current digit using the modulo operation (total % 10).
+- Update of the carry using the division operation (total // 10).
+- Worst case, when all digits are 9 ([9, 9, 9]), process all n digits once 
+and may also insert an additional digit at the beginning.
+- The insertion operation at the start of the array takes linear time, O(n), 
+but it occurs only once.
+- Summary: The time complexity is O(n), where n is the number of digits in the input array.
