@@ -1,1 +1,26 @@
-placeholder
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 6 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 6, 2025
+
+LeetCode Problem: PlusOne
+Link: https://leetcode.com/problems/plus-one/  
+
+Level: Easy
+
+**Notes:**
+
+Goal: You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
+
+Increment the large integer by one and return the resulting array of digits.
+
+- initialize the carry, start with a value of 1
+- iterates backwards by traversing the digits array from the last digit (least significant) to the first (most significant)
+- add the carry to the current digit.
+- update the current digit to the remainder when divided by 10 (digits[i] = total % 10)
+- update the carry to the quotient when divided by 10 (carry = total // 10)
+- this determines if there’s an overflow to handle in the next significant digit
+- if there’s still a carry left after processing all digits, insert it at the beginning of the array
+- the updated digits array represents the incremented number
