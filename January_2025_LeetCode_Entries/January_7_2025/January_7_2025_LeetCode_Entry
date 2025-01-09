@@ -22,3 +22,11 @@ If there is no common prefix, return an empty string "".
 - while the current string does not start with the prefix, trim the last character from the prefix
 - stop trimming when the current string starts with the prefix or the prefix becomes empty
 - after comparing with all strings, return the final prefix
+
+Time Complexity;
+
+placeholder
+
+Space Complexity:
+
+placeholder
