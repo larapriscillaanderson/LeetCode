@@ -34,12 +34,12 @@ Space Complexity:
 
 - In the loop, you construct new_string by appending each alphanumeric character
 (converted to lowercase).
-- In the worst case, if all characters in s are alphanumeric, 
+- In the worst-case scenario, if all characters in s are alphanumeric, 
 new_string will end up being the same length as s.
 - This means the space used by new_string grows linearly with the input size, O(n).
 - Each iteration of the loop uses a temporary variable character to store the current character.
 - Since this is a single variable, its space usage is O(1) (constant space).
-- The reversal operation (new_string[::-1]) creates a reversed string, which worst case,
+- The reversal operation (new_string[::-1]) creates a reversed string, which worst-case,
 - is also as long as new_string, taking up an additional O(n) space.
 - The Boolean result (return new_string == new_string[::-1]) checks if the two strings are equal.
 - It doesn't require additional storage, just returns True or False value, O(1).

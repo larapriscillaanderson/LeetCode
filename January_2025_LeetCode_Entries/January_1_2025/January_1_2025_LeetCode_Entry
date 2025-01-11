@@ -37,8 +37,7 @@ number of operations beyond n.
 
 Space Complexity:
 
-- The space complexity is O(n) because in the worst case (no two numbers add up to the target), 
-all elements of the nums list will be added to the dictionary.
+- The space complexity is O(n) because in the worst-case scenario (no two numbers add up to the target), all elements of the nums list will be added to the dictionary.
 
 Solution: see attached .py file (Python 3)
 

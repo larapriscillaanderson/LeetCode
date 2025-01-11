@@ -29,7 +29,7 @@ Time Complexity:
 - Thus, iterating through all n elements takes O(n) time.
 - After the loop, have to iterate through the dictionary’s key-value pairs using .items() to find the 
 number with a count of 1.
-- In the worst case, this involves checking k unique elements, where k ≤ n.
+- In the worst-case scenario, this involves checking k unique elements, where k ≤ n.
 - Checking all k keys has a time complexity of O(k), which simplifies to O(n) since k ≤ n.
 - Summary: The total time complexity is O(n) + O(n) = O(n), where n is the length of 
 the input array nums.
@@ -37,14 +37,14 @@ the input array nums.
 Space Complexity:
 
 - Since a dictionary is being used, if all the numbers are unique, the dictionary will 
-store n unique keys, worst case scenario.
+store n unique keys, worst-case scenario.
 - This means the space used by the dictionary grows linearly with input size, O(n).
 - The space used for each dictionary is constant, O(1).
 - There are no additional data structures or temporary variables storing significant data.
 - Only the count dictionary and simple variables for iteration are used, 
 - so the extra space beyond the dictionary is constant, O(1).
 - Summary: The dominant factor here is the space used by the count dictionary, which can 
-grow to a size of n in the worst case. Therefore, the total space complexity is O(n).
+grow to a size of n in the worst-case. Therefore, the total space complexity is O(n).
 
 Solution: see attached .py file (Python 3)
 

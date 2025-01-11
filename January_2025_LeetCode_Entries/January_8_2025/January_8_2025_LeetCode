@@ -1,1 +1,69 @@
-placeholder
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 8 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 8, 2025
+
+LeetCode Problem: Longest Common Prefix
+Link: https://leetcode.com/problems/valid-parentheses/   
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', 
+determine if the input string is valid.
+
+An input string is valid if:
+
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Every close bracket has a corresponding open bracket of the same type.
+
+- use a stack data structure to keep track of opening brackets as the iteration begins
+- use a dictionary to store matching pairs {'(': ')', '[': ']', '{': '}'}
+- if it's an opening bracket ((, [, {), push it onto the stack
+- Note: python lists do not have a push method; instead, 
+we use append for adding items to the stack
+- if it's a closing bracket (), ], }), first check if the stack is not empty
+- the top of the stack must match the closing bracket
+- if it matches, pop the top of the stack
+- if it doesn't match or the stack is empty, return false
+- Note: stack is empty should be replaced with not stack, 
+as Python checks for an empty list this way
+- at the end, if the stack is empty, return true (all brackets were matched)
+- if not, return false, (some opening brackets were unmatched)
+
+Time Complexity;
+
+- Each character is processed in constant time. 
+- Pushing an opening bracket onto the stack, O(1).
+- Popping an opening bracket from the stack, O(1).
+- Checking if the top of the stack matches the current closing bracket, O(1).
+- The stack operations are processed, at the most, n times, 
+where n is the length of string s.
+- Worst-case scenario, all characters are opening brackets, which would
+lead to n push operations.
+- Subsequently, this would be followed by n pop operations, if matching
+closing brackets appeared later.
+- Summary: The time complexity is O(n), where n is the number of characters
+in the input string s.
+
+Space Complexity:
+
+- The solution uses a stack data structure to store opening brackets encountered during the iteration.
+- In the worst-case scenario, all characters in the string s are opening brackets, ("[[[{{((").
+- This results in n push operations, where n is the length of the string,
+leading to a maximum stack size of n.
+- No additional data structures are created apart from the stack.
+- The matching_pairs dictionary is constant in size, containing only six key-value pairs. 
+Its space usage is O(1).
+- The algorithm uses a smaller number of variables, (character, top) during the iteration,
+which require constant space O(1).
+- In the worst case, the stack grows linearly with the input size, resulting in a space complexity of 
+O(n), where n is the length of the string s.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
