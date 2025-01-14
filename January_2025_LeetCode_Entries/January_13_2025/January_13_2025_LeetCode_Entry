@@ -53,6 +53,7 @@ If all assertions pass, then your solution will be accepted.
 - write_index is then incremented to prepare for the next unique number
 
 Time Complexity:
+
 - The problem involves a single for loop that iterates through the array nums.
 - The loop runs from read_index = 1 to len(nums) - 1, covering all 
 n - 1 elements of the array after the first.
@@ -64,6 +65,7 @@ n - 1 elements of the array after the first.
 iterations, the total time complexity is O(n), where n is the length of the nums array.
 
 Space Complexity:
+
 - The algorithm modifies the nums array in place without the use of additional
 data structures for storing elements.
 - The space used for variables is constant, (write_index and read_index)
