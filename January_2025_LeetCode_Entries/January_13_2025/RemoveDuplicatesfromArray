@@ -1,0 +1,21 @@
+class Solution(object):
+    def removeDuplicates(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        # initialize pointer write_index
+        write_index = 1
+        # initialize read_index to iterate as a pointer through the array
+        # iterate starting from the second element
+        for read_index in range(1, len(nums)):
+            # if the current index value is not 
+            # equal to the previous index value
+            if nums[read_index] != nums[read_index - 1]:
+                # then copy the unique value into the write_index position
+                nums[write_index] = nums[read_index]
+                # increment write_index
+                write_index += 1 
+        # return the number of unique elements        
+        return write_index 
+        
