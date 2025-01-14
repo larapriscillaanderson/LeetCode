@@ -62,3 +62,21 @@ n - 1 elements of the array after the first.
 - An increment operation for write_index, O(1).
 - Summary: Since these operations are constant time, and the loop runs for n - 1
 iterations, the total time complexity is O(n), where n is the length of the nums array.
+
+Space Complexity:
+- The algorithm modifies the nums array in place without the use of additional
+data structures for storing elements.
+- The space used for variables is constant, (write_index and read_index)
+is constant, O(1).
+- No auxiliary data structures are being used such as dictionaries, lists, or sets.
+- Note: auxiliary data structures are extra data structures that you use in an
+algorithm in addition to the input data structure.
+- The purpose of avoiding the use of auxiliary data structures is to have
+better space complexity (O(1) vs O(n)).
+- The algorithm does not depend on input size n for additional memory allocation.
+- Summary: The total space complexity is O(1), as the algorithm only uses a few 
+variables and modifies the array in-place without requiring extra space.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
