@@ -51,3 +51,14 @@ If all assertions pass, then your solution will be accepted.
 - then read_index loops through the array
 - when a unique number is found, it is written to the position marked by write_index
 - write_index is then incremented to prepare for the next unique number
+
+Time Complexity:
+- The problem involves a single for loop that iterates through the array nums.
+- The loop runs from read_index = 1 to len(nums) - 1, covering all 
+n - 1 elements of the array after the first.
+- Each iteration performs constant time operations.
+- A constant-time comparison: nums[read_index] != nums[read_index - 1], O(1).
+- At most one assignment: nums[write_index] = nums[read_index], O(1).
+- An increment operation for write_index, O(1).
+- Summary: Since these operations are constant time, and the loop runs for n - 1
+iterations, the total time complexity is O(n), where n is the length of the nums array.
