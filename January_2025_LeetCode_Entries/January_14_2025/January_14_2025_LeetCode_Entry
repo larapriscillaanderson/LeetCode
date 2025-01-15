@@ -23,3 +23,18 @@ You must write an algorithm with O(log n) runtime complexity.
 - if the target is greater than the midpoint, then search in the right half
 - if the target is less than the midpoint, then search in the left half
 - if the target is not found, left points to the insertion index
+
+Time Complexity:
+
+- Binary search is used, which involves repeatedly dividing the search range by 2 until
+the target is found or the search range is exhausted.
+- At each step, the algorithm performs constant time operations. 
+- Calculation of the midpoint index, midpoint = left + (right - left) // 2, O(1).
+- Comparing the midpoint to the target, nums[midpoint] == target, O(1).
+- Updating either the left or the right pointer, O(1).
+- The size of the search range is halved with each iteration. 
+- Starting with range n, the iterations progress as n/2, n/4, n/8,... n/k.
+- This continues until the range becomes 1, which takes at most log2(n) iterations.
+- Rearranging this gives k = log2(n). 
+- Summary: The number of iterations is O(log n) where n is the size of the input array.
+  
