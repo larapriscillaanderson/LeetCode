@@ -5,7 +5,7 @@ Day 1 of 2025, this is my LeetCode Journal Entry where I will contribute my note
 
 January 1, 2025
 
-LeetCode Problem: TwoSum
+LeetCode Problem: Two Sum
 Link: https://leetcode.com/problems/two-sum/description/
 
 Level: Easy
@@ -28,8 +28,7 @@ Time Complexity:
 - The if variable_x in num_indices operation is an average O(1) operation because dictionary lookups 
 in Python use a hash table, which has constant-time complexity for lookups in the average case.
 - Adding an element to the dictionary is also an average O(1) operation.
-- Summary: The loop runs n times, and for each iteration, the dictionary operations (lookup and insertion) 
-are both O(1). Therefore, the total time complexity is O(n).
+- Summary: The loop runs n times, and for each iteration, the dictionary operations (lookup and insertion) are both O(1). Therefore, the total time complexity is O(n).
 
 **Note:** Each element is processed once: either it is checked against the dictionary (constant time) 
 or added to it (constant time). There are no nested loops or recursive calls that would increase the 
