@@ -12,7 +12,8 @@ Level: Easy
 
 **Notes:**
 
-Goal: Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+Goal: Given a sorted array of distinct integers and a target value, return the index if 
+the target is found. If not, return the index where it would be if it were inserted in order.
 
 You must write an algorithm with O(log n) runtime complexity.
 
@@ -37,4 +38,20 @@ the target is found or the search range is exhausted.
 - This continues until the range becomes 1, which takes at most log2(n) iterations.
 - Rearranging this gives k = log2(n). 
 - Summary: The number of iterations is O(log n) where n is the size of the input array.
-  
+
+Space Complexity:
+
+- The algorithm operates directly on the input array nums without creating additional 
+data structures for storage.
+- The space used for the variables (left, right, midpoint) is constant O(1).
+- No auxiliary data structures (like dictionaries, lists, or sets) are used:
+- Note: Auxiliary data structures are additional storage structures used alongside the input.
+- Avoiding auxiliary data structures ensures better space efficiency.
+- The algorithm doesn't allocate memory based on the size of input n.
+- For example, it doesn't create arrays or lists proportional to n. 
+- Summary: The total space complexity is O(1) because the algorithm uses only
+a fixed amount of extra memory, regardless of the size of the input array.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
