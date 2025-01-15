@@ -1,0 +1,25 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 14 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 14, 2025
+
+LeetCode Problem: Search Insert Position
+Link: https://leetcode.com/problems/search-insert-position/  
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.
+
+You must write an algorithm with O(log n) runtime complexity.
+
+- initial thoughts: the O(log n) runtime is a hint to use binary search
+- O(log n) usually involves halving the search space with each iteration
+- iterate through the array but using a midpoint calculation as a base
+- then search for the target by comparing it to this midpoint
+- if the target is greater than the midpoint, then search in the right half
+- if the target is less than the midpoint, then search in the left half
+- if the target is not found, left points to the insertion index
