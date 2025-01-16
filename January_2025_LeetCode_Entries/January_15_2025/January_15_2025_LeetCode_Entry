@@ -1,0 +1,24 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 15 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 15, 2025
+
+LeetCode Problem: Contains Duplicate
+Link: https://leetcode.com/problems/contains-duplicate/description/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given an integer array nums, return true if any value appears at least twice in the array, and return false if every element is distinct.
+
+- initial thoughts: can approach this problem using a hash set to store seen numbers
+- or could use a sorted array, and search through it
+- Note: the hash set is more efficient, versus the sorted array approach 
+because sorting and then looping takes time
+- create a hash set to store the numbers that are seen
+- if a duplicate is found, return True 
+- otherwise, if it's not found then add the number to the hash set
+- if the loop finished without finding duplicates, return False
