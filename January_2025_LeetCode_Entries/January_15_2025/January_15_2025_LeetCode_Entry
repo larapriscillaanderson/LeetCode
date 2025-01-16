@@ -33,3 +33,17 @@ related to the hash set, like add and in.
 - Hash set operation: adding the element to the set, O(1).
 - Per element O(1), times iterating through the array x O(n) = O(n).
 - The overall time complexity is O(n), where n is the size of the input array.
+
+Space Complexity:
+
+- The algorithm operates directly on the input array nums without modifying it.
+- The hash set grows dynamically as elements are added.
+- Worst-case scenario there are no duplicates, the set will store all n elements.
+- A hash set is the only auxiliary data structure used.
+- The size of the set depends on the size of the input n, making
+the space usage proportional to n.
+- Summary: The total space complexity is O(n), where n is the size of the input array.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
