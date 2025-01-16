@@ -22,3 +22,14 @@ because sorting and then looping takes time
 - if a duplicate is found, return True 
 - otherwise, if it's not found then add the number to the hash set
 - if the loop finished without finding duplicates, return False
+
+Time Complexity:
+
+- This approach involves iterating through the input array and performing operations
+related to the hash set, like add and in.
+- The algorithm processes each element of the array nums exactly once.
+- Looping through nums has a time complexity of O(n), where n is the size of the array.
+- Hash set operation: checking if the element exists in the set, O(1).
+- Hash set operation: adding the element to the set, O(1).
+- Per element O(1), times iterating through the array x O(n) = O(n).
+- The overall time complexity is O(n), where n is the size of the input array.
