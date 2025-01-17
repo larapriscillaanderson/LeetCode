@@ -34,6 +34,17 @@ Time Complexity:
 decrease the frequency count.
 - These operations take O(m) time where m is the length of t.
 - The size of the dictionary is at most the number of unique characters in s,
-which is bound by a constant 26 letters in the English alphabet, O(1).
+which is bound by a constant 26 (for lowercase) letters in the English alphabet, O(1).
 - Since n = m, both strings have to be the same length to be anagrams.
 - The overall time complexity is O(n).
+
+Space Complexity:
+
+- The maximum size for the dictionary is the number of unique characters in s, 
+which is a constant O(1) for lowercase English letters.
+- No other significant space is used other than the dictionary.
+- Summary: The overall space complexity is O(1).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
