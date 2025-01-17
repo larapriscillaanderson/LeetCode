@@ -1,1 +1,17 @@
-placeholder
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 9 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 9, 2025
+
+LeetCode Problem: Binary Search
+Link: https://leetcode.com/problems/binary-search/    
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
+
+You must write an algorithm with O(log n) runtime complexity.
