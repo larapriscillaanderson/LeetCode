@@ -14,3 +14,4 @@ class Solution(object):
                 # but make sure to add it as a lowercase value
         return new_string == new_string[::-1]
         # check if the new string is the same as its reversal
+        

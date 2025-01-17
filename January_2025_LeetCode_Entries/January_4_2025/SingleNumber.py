@@ -18,3 +18,4 @@ class Solution(object):
             if freq == 1:
                 # return the number
                 return num
+                

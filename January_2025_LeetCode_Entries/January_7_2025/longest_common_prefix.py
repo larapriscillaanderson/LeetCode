@@ -27,3 +27,4 @@ class Solution(object):
                 return ""
 
         return prefix
+        
