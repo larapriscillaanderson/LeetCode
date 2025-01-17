@@ -25,3 +25,15 @@ in the dictionary.
 - if a character in t is not in the dictionary or its count becomes negative,
 return False
 - if all counts in the dictionary are zero, return true.
+
+Time Complexity:
+
+- Building the first for loop, iterate, check if character exists, update frequency.
+- These operations take O(n) time where n is the length of s.
+- Building the second for loop, check if character exists, check if frequency is zero,
+decrease the frequency count.
+- These operations take O(m) time where m is the length of t.
+- The size of the dictionary is at most the number of unique characters in s,
+which is bound by a constant 26 letters in the English alphabet, O(1).
+- Since n = m, both strings have to be the same length to be anagrams.
+- The overall time complexity is O(n).
