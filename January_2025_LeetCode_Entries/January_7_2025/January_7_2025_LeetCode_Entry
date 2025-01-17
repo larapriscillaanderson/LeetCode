@@ -34,8 +34,17 @@ of the current until either a mismatch is found, or the entire prefix is consume
 - Suppose L is the length of the shortest string in the array, (since the common 
 prefix cannot exceed this length). 
 - Worst-case each of the n strings is compared character by character for up to L characters.
-- Summary: The total time complexity is O(n * L).
+- Summary: The total time complexity is O(n * L), where n is the number of strings,
+and L is the length of the shortest string.
 
 Space Complexity:
 
-placeholder
+- The prefix variable stores a substring of the first string. Its size is at most L,
+the length of the shortest string.
+- Other variables, such as common_index and the loop counters, require O(1) space. 
+- The algorithm does not use any auxiliary data structures like arrays, dictionaries, or sets.
+- Summary: The total space complexity is O(1) as the space used does not grow with input size.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
