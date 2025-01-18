@@ -14,7 +14,7 @@ Level: Easy
 
 Goal: Given an array of integers temperatures represents the daily temperatures, return an array answer such that answer[i] is the number of days you have to wait after the ith day to get a warmer temperature. If there is no future day for which this is possible, keep answer[i] == 0 instead.
 
-- initial thoughts: this can be solved using a monotonic stack approach
+- initial thoughts: this can be solved using a monotonic stack approach or a brute force approach
 - first, for each day find out how many days ahead the temperature is warmer
 - if no such day exists, return 0 for that day
 - use a stack to keep track of indices of the temperatures array
@@ -32,3 +32,10 @@ Time Complexity:
 - Worst case for each day, the inner loop scans all remaining days to find a warmer temperature.
 - For example, if temperatures = [1, 1, 1, ..., 1, 100], the inner loop will run almost the entire length for each outer loop iteration.
 - Summary: The overall time complexity is O(n^2).
+
+Space Complexity:
+
+- Store the result in a list of size n, so the space used is O(n).
+- Variables like count, j, and i are scalar values, so they take O(1) space.
+- The algorithm does not use extra space for data structures like a stack or dictionary.
+- Summary: The overall space complexity is O(n).
