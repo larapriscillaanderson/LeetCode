@@ -5,11 +5,30 @@ Day 17 of 2025, this is my LeetCode Journal Entry where I will contribute my not
 
 January 17, 2025
 
-LeetCode Problem: 
-Link: 
+LeetCode Problem: Daily Temperatures
+Link: https://leetcode.com/problems/daily-temperatures/
 
 Level: Easy
 
 **Notes:**
 
-Goal: Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+Goal: Given an array of integers temperatures represents the daily temperatures, return an array answer such that answer[i] is the number of days you have to wait after the ith day to get a warmer temperature. If there is no future day for which this is possible, keep answer[i] == 0 instead.
+
+- initial thoughts: this can be solved using a monotonic stack approach
+- first, for each day find out how many days ahead the temperature is warmer
+- if no such day exists, return 0 for that day
+- use a stack to keep track of indices of the temperatures array
+- traverse the array from left to right
+- hile the stack is not empty and the current temperature is greater than the 
+temperature at the index stored at the top of the stack
+- then pop the stack to get the index of the previous day
+- compute the difference in days (current_index - stack_top_index) and store it in the result array
+- push the current index onto the stack
+- at the end, any indices left in the stack will have 0 in the result because no warmer day exists
+
+Time Complexity:
+
+- Outer Loop: runs n times (once for each day in temperatures).
+- Worst case for each day, the inner loop scans all remaining days to find a warmer temperature.
+- For example, if temperatures = [1, 1, 1, ..., 1, 100], the inner loop will run almost the entire length for each outer loop iteration.
+- Summary: The overall time complexity is O(n^2).
