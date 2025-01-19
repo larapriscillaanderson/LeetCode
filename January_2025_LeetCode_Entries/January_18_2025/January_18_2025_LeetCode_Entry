@@ -1,0 +1,22 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 18 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 18, 2025
+
+LeetCode Problem: Two Sum REVISITED
+Link: https://leetcode.com/problems/two-sum/description/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given an array of integers nums and an integer target, return indices of the two numbers 
+such that they add up to target.
+
+- Loop through each element x and find if there is another value that equals to target − x.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
