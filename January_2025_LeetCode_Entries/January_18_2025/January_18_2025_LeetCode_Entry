@@ -22,6 +22,12 @@ Time Complexity:
 - Achieved using 2 for loops, O(n) each.
 - Summary: Total time complexity is O(n^2).
 
+Space Complexity:
+
+- No auxiliary data structures used, only constant space.
+- The space does not depend on the size of the input array. 
+- Summary:  Total space complexity is O(1).
+
 Solution: see attached .py file (Python 3)
 
 Revisit? Yes
