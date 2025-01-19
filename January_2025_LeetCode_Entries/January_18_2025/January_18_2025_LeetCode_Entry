@@ -17,6 +17,11 @@ such that they add up to target.
 
 - Loop through each element x and find if there is another value that equals to target − x.
 
+Time Complexity:
+
+- Achieved using 2 for loops, O(n) each.
+- Summary: Total time complexity is O(n^2).
+
 Solution: see attached .py file (Python 3)
 
 Revisit? Yes
