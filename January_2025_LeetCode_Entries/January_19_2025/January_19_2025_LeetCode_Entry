@@ -30,5 +30,10 @@ answer[i] == i (as a string) if none of the above conditions are true.
 
 Time Complexity:
 
-- We loop through numbers from 1 to n, and for each number, we perform constant-time checks and append operations. The overall time complexity is linear with respect to n.
+- Loop through numbers from 1 to n, and for each number, perform constant-time checks and append operations. The overall time complexity is linear with respect to n.
 - Summary: Total time complexity is O(n).
+
+Space Complexity:
+
+- Store the results in the answer list, which will contain n elements.
+- Summary: Total space complexity is O(n).
