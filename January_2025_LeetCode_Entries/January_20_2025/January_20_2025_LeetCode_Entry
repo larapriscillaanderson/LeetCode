@@ -32,3 +32,15 @@ iterations in the while loop.
 - The loop runs for about half of the digits when reversing half the number 
 or all digits when reversing the full number.
 - Summary: If n is the number of digits in x, the overall time complexity is O(n).
+
+Space Complexity:
+
+- The solution uses a few integer variables (x, reversed_number, last_digit, etc.), 
+which occupy constant space.
+- The solution doesn’t use any additional data structures like arrays, strings, or lists.
+- Summary: The space complexity is O(1) (constant space), as the space usage doesn’t scale 
+with the input size.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
