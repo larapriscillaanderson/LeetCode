@@ -20,8 +20,20 @@ An integer n is a power of two, if there exists an integer x such that n == 2^x.
 - good to know: a power of two has exactly one bit set to 1 in its binary representation
 - 1 = 0001, 2 = 0010, 4 = 0100, 8 = 1000
 - could potentially approach this using bitwise operators
-- however, a more beginner approach would be to use a while loop
+- however, a more beginner approach would be to use an iterative division while loop
 - continuously divide and check for a remainder of 0 
 - if n is not a power of two, the division will eventually stop at a non 1 value
 - Note: use integer floor division // to produce an integer, 
 float division / would produce a floating number
+
+Time Complexity:
+
+- The while loop and modulus remainder operation is significantly inefficient.
+- At each step, the while loop divides n by 2.
+- The value of n is thus decreasing exponentially.
+- The loop continues as long as n % 2 == 0, this will run for the number of times
+n can be halved until it becomes 1.
+- This is approximately log2(n).
+- The modulo operation n % 2 and integer floor division n // 2, both take O(1) time.
+- Summary: Since the loop runs O(log2(n)) times and each iteration takes O(1) time,
+the overall time complexity is O(log2(n)).
