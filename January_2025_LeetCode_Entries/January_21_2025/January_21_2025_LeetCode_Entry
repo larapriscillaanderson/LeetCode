@@ -37,3 +37,12 @@ n can be halved until it becomes 1.
 - The modulo operation n % 2 and integer floor division n // 2, both take O(1) time.
 - Summary: Since the loop runs O(log2(n)) times and each iteration takes O(1) time,
 the overall time complexity is O(log2(n)).
+
+Space Complexity:
+
+- The algorithm uses a constant amount of space since only the variable n is modified.
+- Summary: The total space complexity is O(1).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
