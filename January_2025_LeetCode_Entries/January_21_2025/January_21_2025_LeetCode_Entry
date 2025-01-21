@@ -1,0 +1,27 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 21 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 21, 2025
+
+LeetCode Problem: Power of Two
+Link: https://leetcode.com/problems/power-of-two/  
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given an integer n, return true if it is a power of two. Otherwise, return false.
+
+An integer n is a power of two, if there exists an integer x such that n == 2^x.
+
+- first check if n is negative, because negative numbers and zero are not powers of two
+- good to know: a power of two has exactly one bit set to 1 in its binary representation
+- 1 = 0001, 2 = 0010, 4 = 0100, 8 = 1000
+- could potentially approach this using bitwise operators
+- however, a more beginner approach would be to use a while loop
+- continuously divide and check for a remainder of 0 
+- if n is not a power of two, the division will eventually stop at a non 1 value
+- Note: use integer floor division // to produce an integer, 
+float division / would produce a floating number
