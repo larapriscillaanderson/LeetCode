@@ -12,8 +12,7 @@ Level: Easy
 
 **Notes:**
 
-Goal: Given an integer x, return true if x is a 
-palindrome, and false otherwise.
+Goal: Given an integer x, return true if x is a palindrome, and false otherwise.
 
 - [::-1] this is [start:end: step]
 - [::1] starting from the beginning and going to the end with a step of 1, same as [0:len(sequence):1]

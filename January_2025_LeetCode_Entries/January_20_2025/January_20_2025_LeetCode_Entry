@@ -1,0 +1,23 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 20 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 20, 2025
+
+LeetCode Problem: Palindrome Number REVISITED
+Link: https://leetcode.com/problems/palindrome-number/description/ 
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given an integer x, return true if x is a palindrome, and false otherwise.
+
+- if x is negative, immediately return False
+- use a while loop to reverse the digits
+- extract the last digit with x % 10
+- append it to reversed_number by multiplying the current reversed number by 10 
+and adding the last digit
+- remove the last digit from x with integer division x //= 10
+- if the reversed number matches the original number, it’s a palindrome
