@@ -29,3 +29,7 @@ would be an appropriate approach
 calculation (right - left) // 2 might cause overflow 
 - by calculating left + (right - left) // 2, avoid this potential issue
 because right - left will never exceed the range of the integer type
+
+Time Complexity:
+
+- Summary: The total time complexity is O(log n) since each step halves the search range.
