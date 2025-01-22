@@ -33,3 +33,16 @@ because right - left will never exceed the range of the integer type
 Time Complexity:
 
 - Summary: The total time complexity is O(log n) since each step halves the search range.
+
+Space Complexity:
+
+- The input array already exists in memory and is not modified during the search.
+- Note: This memory usage is not part of the algorithm's space complexity (since it's part of the input).
+- The implementation is iterative, so no extra memory is allocated for recursive call stacks.
+- No additional data structures (lists, dictionaries, etc.) are created during the search.
+- Summary: Since the algorithm only uses a fixed number of variables, the space complexity is O(1).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
+
