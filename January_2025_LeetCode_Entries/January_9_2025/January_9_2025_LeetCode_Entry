@@ -12,6 +12,20 @@ Level: Easy
 
 **Notes:**
 
-Goal: Given an array of integers nums which is sorted in ascending order, and an integer target, write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
+Goal: Given an array of integers nums which is sorted in ascending order, and an integer target, 
+write a function to search target in nums. If target exists, then return its index. Otherwise, return -1.
 
 You must write an algorithm with O(log n) runtime complexity.
+
+- the given parameters in the problem suggest a classic binary search algorithm
+would be an appropriate approach
+- start by using two pointers to handle the left and right sides
+- calculate the middle index and avoid overflow
+- if the middle == target, then return its index
+- if middle > target, then move right pointer to mid - 1
+- if middle < target, then move left pointer to mid + 1
+- if left > right, the target is not in the array, return - 1
+- good to know: in some programming languages, like C++ and Java, the direct middle
+calculation (right - left) // 2 might cause overflow 
+- by calculating left + (right - left) // 2, avoid this potential issue
+because right - left will never exceed the range of the integer type
