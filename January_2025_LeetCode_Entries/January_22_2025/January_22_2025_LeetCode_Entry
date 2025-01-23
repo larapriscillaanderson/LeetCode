@@ -25,3 +25,10 @@ You must write an algorithm with O(log n) runtime complexity.
 - handle the case where the target is larger than all elements 
 - if the loop completes without finding a valid position, the target belongs at the end
 - just return len(nums)
+
+Time Complexity:
+
+- The for loop iterates through the list of nums at most once.
+- In the worst case, the target is greater than all elements in the list, 
+so check every single element in nums.
+- Summary: the time complexity is proportional to the size of the input: O(n).
