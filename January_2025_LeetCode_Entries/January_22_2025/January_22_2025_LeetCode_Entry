@@ -31,4 +31,15 @@ Time Complexity:
 - The for loop iterates through the list of nums at most once.
 - In the worst case, the target is greater than all elements in the list, 
 so check every single element in nums.
-- Summary: the time complexity is proportional to the size of the input: O(n).
+- Summary: The time complexity is proportional to the size of the input: O(n).
+
+Space Complexity:
+
+- The algorithm uses only a constant amount of extra space.
+- No additional data structures are created.
+- Variables like i are part of the loop and don’t grow with the input size.
+- Summary: The space complexity is constant space, O(1).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
