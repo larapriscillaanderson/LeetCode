@@ -37,3 +37,14 @@ might have up to m comparisons for each string.
 - n is the number of strings in the input array.
 - m is the length of the longest string in the array.
 
+Space Complexity:
+
+- Input Strings: The function doesn't modify or copy the input array; it operates directly on it.
+- Prefix Variable: Only a single string prefix is stored, whose length depends on the 
+longest common prefix but is never more than the length of the longest string.
+- Auxiliary Space: No additional data structures (like arrays or dictionaries) are used.
+Space Complexity: O(1) (constant space)
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
