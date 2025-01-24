@@ -1,0 +1,23 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 23 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 23, 2025
+
+LeetCode Problem: Longest Common Prefix REVISITED
+Link: https://leetcode.com/problems/longest-common-prefix/   
+
+Level: Easy
+
+**Notes:**
+
+Goal: Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
+
+- start with the first string as the initial assumption for the prefix
+- terate through all strings in the list, checking if the current string starts with the prefix
+- if it doesn’t, shorten the prefix by removing the last character
+- if the prefix becomes empty at any point, return an empty string
+- at the end of the loop, the prefix will be the longest common prefix
