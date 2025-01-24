@@ -21,3 +21,19 @@ If there is no common prefix, return an empty string "".
 - if it doesn’t, shorten the prefix by removing the last character
 - if the prefix becomes empty at any point, return an empty string
 - at the end of the loop, the prefix will be the longest common prefix
+
+Time Complexity:
+
+- The outer loop iterates through all the strings in the input array strs.
+- If there are n strings in the array, the loop will run n times.
+- The while loop reduces the prefix character by character until it matches 
+the beginning of the current string or becomes empty.
+- In the worst case, the prefix might have to compare all its characters with 
+the current string and be reduced entirely.
+- For the longest string in the array, assume its length is m. So, in the worst case,
+might have up to m comparisons for each string.
+- For each of the n strings, the algorithm may perform up to m comparisons in the while loop.
+- Summary: The total time complexity is O(n * m).
+- n is the number of strings in the input array.
+- m is the length of the longest string in the array.
+
