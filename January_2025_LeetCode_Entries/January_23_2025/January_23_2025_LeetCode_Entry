@@ -43,7 +43,7 @@ Space Complexity:
 - Prefix Variable: Only a single string prefix is stored, whose length depends on the 
 longest common prefix but is never more than the length of the longest string.
 - Auxiliary Space: No additional data structures (like arrays or dictionaries) are used.
-Space Complexity: O(1) (constant space)
+- Space Complexity: The total space complexity is O(1) (constant space).
 
 Solution: see attached .py file (Python 3)
 

@@ -49,3 +49,15 @@ times you can divide n by 2.
 - In each iteration, the function calls isBadVersion(mid) exactly once.
 - Since the number of iterations is O(log n), the number of isBadVersion calls is also O(log n).
 - Summary: The binary search takes O(log n) iterations, total time complexity is O(log n).
+
+Space Complexity:
+
+- The algorithm uses two pointers, left and right, to track the search range.
+- These are simple integer variables that require O(1) space.
+- The solution does not use any arrays, lists, or other data structures.
+- All operations are performed in place.
+- The total space complexity is O(1) (constant space).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
