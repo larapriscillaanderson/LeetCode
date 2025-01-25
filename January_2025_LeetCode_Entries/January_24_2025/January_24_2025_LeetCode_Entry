@@ -38,3 +38,14 @@ is in the left half or could be mid itself
 - if false, shift left to mid + 1 because all versions before or at mid are good
 - repeat until left == right, which will be the first bad version
 - return left
+
+Time Complexity:
+
+- Binary search splits the search space in half at each step.
+- At each iteration, the size of the search range reduces by half, n, n/2, n/4, ... 1.
+- The number of steps required to reduce the range to 1 is equal to the number of 
+times you can divide n by 2.
+- Mathematically this is equivalent to log2(n).
+- In each iteration, the function calls isBadVersion(mid) exactly once.
+- Since the number of iterations is O(log n), the number of isBadVersion calls is also O(log n).
+- Summary: The binary search takes O(log n) iterations, total time complexity is O(log n).
