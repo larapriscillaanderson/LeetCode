@@ -22,3 +22,14 @@ Increment the large integer by one and return the resulting array of digits.
 - otherwise, set the digit to 0
 - if you finish the loop (all digits were 9), prepend a 1 to the array
 - ([9, 9, 9] becomes [1, 0, 0, 0]), and return the updated array
+
+Time Complexity:
+
+- Best Case:
+- If the last digit is not 9, the loop exits immediately after processing the last digit.
+- This means the algorithm only performs 1 iteration, O(1).
+- Worst Case: (all digits are 9)
+- The loop needs to process all digits since each digit is 9 and must be set to 0.
+- After processing all digits, the algorithm prepends 1 to the array.
+- Here it would be O(n), where n is the number of digits in the input.
+- Summary: The total time complexity is O(1) (best case) to O(n) (worst case).
