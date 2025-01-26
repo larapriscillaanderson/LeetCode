@@ -1,0 +1,24 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 25 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 25, 2025
+
+LeetCode Problem: Plus One REVISITED
+Link: https://leetcode.com/problems/plus-one/  
+
+Level: Easy
+
+**Notes:**
+
+Goal: You are given a large integer represented as an integer array digits, where each digits[i] is the ith digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading 0's.
+
+Increment the large integer by one and return the resulting array of digits.
+
+- instead of using the carry method, try an alternative approach iterating from the last digit backward
+- for each digit, if the digit is less than 9 increment the digit by 1
+- return the updated array immeidately
+- otherwise, set the digit to 0
+- if you finish the loop (all digits were 9), prepend a 1 to the array
+- ([9, 9, 9] becomes [1, 0, 0, 0]), and return the updated array
