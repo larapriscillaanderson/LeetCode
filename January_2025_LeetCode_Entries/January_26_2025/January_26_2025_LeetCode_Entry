@@ -8,7 +8,7 @@ January 26, 2025
 LeetCode Problem: Find Peak Element
 Link: https://leetcode.com/problems/find-peak-element/  
 
-Level: Easy
+Level: Medium
 
 **Notes:**
 
@@ -37,3 +37,14 @@ You must write an algorithm that runs in O(log n) time.
 - when the loop ends, left == right, and we have found a peak index, return left
 - only potential improvement is adding comments for edge cases like a single-element array 
 or two-element array to make it clear that the implementation handles those implicitly
+
+Time Complexity:
+
+- No additional data structures or operations outside the loop affect the time complexity.
+- In each iteration, we calculate the midpoint (mid) in O(1) time.
+- Either move the left pointer (left = mid + 1) or the right pointer (right = mid), 
+reducing the search space by half.
+- The maximum number of iterations is proportional to the logarithm of the input size: O(log n).
+- Edge Case: If the input array has only one element (n = 1), 
+the loop doesn’t run, and we directly return the peak in O(1) time.
+- Summary: The total time complexity is O(log n) because of the constant halving in binary search.
