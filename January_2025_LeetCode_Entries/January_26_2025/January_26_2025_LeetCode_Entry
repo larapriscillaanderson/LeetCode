@@ -48,3 +48,13 @@ reducing the search space by half.
 - Edge Case: If the input array has only one element (n = 1), 
 the loop doesn’t run, and we directly return the peak in O(1) time.
 - Summary: The total time complexity is O(log n) because of the constant halving in binary search.
+
+Space Complexity:
+
+- The algorithm uses a constant amount of extra space for variables like left, right, and mid.
+- No additional data structures are created.
+- Summary: The total space complexity is O(1), constant space.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
