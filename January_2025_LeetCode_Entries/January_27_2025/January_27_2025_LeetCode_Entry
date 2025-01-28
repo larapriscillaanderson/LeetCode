@@ -37,3 +37,13 @@ Time Complexity:
 - Each binary search operates on a sorted array, halving the search space in each iteration.
 - The time complexity of a single binary search is O(log n).
 - Since we perform two binary searches, the total time complexity is O(2⋅logn) = O(log n).
+
+Space Complexity:
+
+- The algorithm does not use any additional data structures or create new arrays.
+- All operations are performed in place using a constant amount of extra variables.
+- The space complexity is O(1).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
