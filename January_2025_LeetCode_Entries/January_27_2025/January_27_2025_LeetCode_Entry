@@ -30,3 +30,10 @@ You must write an algorithm with O(log n) runtime complexity.
 (to search right for the last occurrence)
 - if either the first or last position is not found, return [-1, -1]
 - otherwise, return [first_position, last_position]
+
+Time Complexity:
+
+- The algorithm uses two binary searches: one to find the first occurrence of the target and the other to find the last occurrence.
+- Each binary search operates on a sorted array, halving the search space in each iteration.
+- The time complexity of a single binary search is O(log n).
+- Since we perform two binary searches, the total time complexity is O(2⋅logn) = O(log n).
