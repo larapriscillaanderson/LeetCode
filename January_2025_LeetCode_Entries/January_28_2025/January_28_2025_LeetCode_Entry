@@ -43,3 +43,15 @@ Time Complexity:
 - Stop when there's only one number left, this happens when n / 2^k = 1.
 - After multiplying both sides by 2, and taking the log, this can be translated to k = log2(n).
 - Summary: The total time complexity is O(log n) because each step halves the search space.
+
+Space Complexity:
+
+- Only a few variables are used here, high, low, mid, and result.
+- These take up constant space, they don't grow with the input n.
+- No additional data structures are used likearrays, lists, or recursion, etc.
+- The binary search runs iteratively, modifying low and high in place.
+- Summary: The total space complexity is O(1), constant space.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
