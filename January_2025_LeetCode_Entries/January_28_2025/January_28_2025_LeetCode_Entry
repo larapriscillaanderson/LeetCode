@@ -32,3 +32,14 @@ binary search is the best approach
 - if guess(mid) == -1, mid is too high, search left half (high = mid - 1)
 - if guess(mid) == 1, mid is too low, search right half (low = mid + 1)
 - repeat until you find pick
+
+Time Complexity:
+
+- At each step, we divide the search space in half.
+- Start with n possible numbers.
+- After 1st iteration, we have n/2 numbers left.
+- After 2nd iteration, we have n/4.
+- After k iterations, we have n / 2^k left.
+- Stop when there's only one number left, this happens when n / 2^k = 1.
+- After multiplying both sides by 2, and taking the log, this can be translated to k = log2(n).
+- Summary: The total time complexity is O(log n) because each step halves the search space.
