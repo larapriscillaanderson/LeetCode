@@ -42,7 +42,7 @@ Space Complexity:
 
 - The algorithm does not use any additional data structures or create new arrays.
 - All operations are performed in place using a constant amount of extra variables.
-- The space complexity is O(1).
+- Summary: The total space complexity is O(1).
 
 Solution: see attached .py file (Python 3)
 
