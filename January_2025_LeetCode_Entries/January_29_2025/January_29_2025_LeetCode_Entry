@@ -35,3 +35,14 @@ last integer of the previous row
 - if matrix[row][col] < target, move left to mid + 1
 - if matrix[row][col] > target, move right to mid - 1
 - if the loop ends, return False
+
+Time Complexity:
+
+- There are operations that simply retrieve the number of rows and columns, 
+which take constant time.
+- m = len(matrix): O(1)
+- n = len(matrix[0]): O(1)
+- The number of elements in the matrix is m * n.
+- Binary search runs in O(log K) time, where K is the total number of elements.
+- Here, K = m * n, so the time complexity is O(log (m * n)).
+- Summary: The total time complexity is O(log (m * n)).
