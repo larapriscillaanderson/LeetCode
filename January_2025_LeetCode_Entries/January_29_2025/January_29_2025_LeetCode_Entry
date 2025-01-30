@@ -1,0 +1,37 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 29 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 29, 2025
+
+LeetCode Problem: Search a 2D Matrix
+Link: https://leetcode.com/problems/search-a-2d-matrix/
+
+Level: Medium
+
+**Notes:**
+
+Goal: You are given an m x n integer matrix matrix with the following two properties:
+
+Each row is sorted in non-decreasing order.
+The first integer of each row is greater than the last integer of the previous row.
+Given an integer target, return true if target is in matrix or false otherwise.
+
+You must write a solution in O(log(m * n)) time complexity.
+
+- initial thoughts: the matrix has two key properties
+- each row is sorted, and the first integer of each row is greater than the 
+last integer of the previous row
+- the matrix can be mapped back into a 1D array by using a 2D coordinate system (row, col)
+- row = index // n
+- col = index % n
+- can use a classic binary search approach, since the number of total elements is m * n
+- initialize left and right pointers as left = 0 and right = m * n - 1
+- calculate middle index mid = (left + right) // 2
+- convert mid back to 2D coordinates, row = mid // n, col = mid % n
+- compare matrix[row][col] with target
+- if matrix[row][col] == target, return True
+- if matrix[row][col] < target, move left to mid + 1
+- if matrix[row][col] > target, move right to mid - 1
+- if the loop ends, return False
