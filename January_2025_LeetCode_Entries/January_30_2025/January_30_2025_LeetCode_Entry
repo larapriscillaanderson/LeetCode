@@ -1,0 +1,37 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 30 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 30, 2025
+
+LeetCode Problem: Find Minimum in Rotated Sorted Array
+Link: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/
+
+Level: Medium
+
+**Notes:**
+
+Goal: Suppose an array of length n sorted in ascending order is rotated between 1 and n times. For example, the array nums = [0,1,2,4,5,6,7] might become:
+
+[4,5,6,7,0,1,2] if it was rotated 4 times.
+[0,1,2,4,5,6,7] if it was rotated 7 times.
+Notice that rotating an array [a[0], a[1], a[2], ..., a[n-1]] 1 time results in the array [a[n-1], a[0], a[1], a[2], ..., a[n-2]].
+
+Given the sorted rotated array nums of unique elements, return the minimum element of this array.
+
+You must write an algorithm that runs in O(log n) time.
+
+- initial thoughts: since the array is sorted, but rotated, it's important to notice that the
+smallest element will always be at the point where the rotation happened
+- the array has two parts: first and second part
+- first part = left of the rotation
+- second part = right of the rotation
+- if the middle element is greater than the rightmost element, this means the minimum element
+is on the right side, because the rotation point must be somewhere after the middle element
+- if the middle element is less than the rightmost element, this means the minimum element
+could be the middle element or somewhere to the left of it
+- the idea is to keep adjusting the search range by comparing the middle element 
+with the rightmost element, narrowing down the range until we find the minimum
+
+** NOTE: this will take more depth and time to learn, will resume tomorrow. **
