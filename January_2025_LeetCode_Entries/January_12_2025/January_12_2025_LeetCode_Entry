@@ -1,1 +1,23 @@
-creating the last placeholder, will catch up tomorrow.
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 12 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 12, 2025
+
+LeetCode Problem: Goal Parser Interpretation 
+Link: https://leetcode.com/problems/goal-parser-interpretation/  
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given a valid (IPv4) IP address, return a defanged version of that IP address.
+
+A defanged IP address replaces every period "." with "[.]".
+
+Given the string command, return the Goal Parser's interpretation of command.
+
+- initial thoughts: loop through the string and replace every period (".") with [.]
+- return the updated string
+- key operation: use .replace()
