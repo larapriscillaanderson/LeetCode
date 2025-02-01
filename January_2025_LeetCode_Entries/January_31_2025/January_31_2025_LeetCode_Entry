@@ -33,3 +33,8 @@ is on the right side, because the rotation point must be somewhere after the mid
 could be the middle element or somewhere to the left of it
 - the idea is to keep adjusting the search range by comparing the middle element 
 with the rightmost element, narrowing down the range until we find the minimum
+
+Time Complexity:
+
+- Each time the comparison of the middle element is done to the rightmost element, 
+the search space is halved, ensuring the time complexity is O(log n).
