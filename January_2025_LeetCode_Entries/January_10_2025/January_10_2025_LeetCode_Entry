@@ -1,1 +1,26 @@
-placeholder
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 10 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 10, 2025
+
+LeetCode Problem: Maximum Number of Words Found in Sentences
+Link: https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/  
+
+Level: Easy
+
+**Notes:**
+
+Goal: A sentence is a list of words that are separated by a single space with no leading or trailing spaces.
+
+You are given an array of strings sentences, where each sentences[i] represents a single sentence.
+
+Return the maximum number of words that appear in a single sentence.
+
+- initial thoughts: since words are separated by spaces, it is possible to split the sentence into a list of words
+- the number of words is then going to be the length of that list
+- keep track of the maximum word count
+- return the highest word count at the end
+- key operation: since words in a sentence are separated by a single space, 
+use .split(" ") to break it into a list of words
