@@ -1,0 +1,29 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 11 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+January 11, 2025
+
+LeetCode Problem: Goal Parser Interpretation 
+Link: https://leetcode.com/problems/goal-parser-interpretation/  
+
+Level: Easy
+
+**Notes:**
+
+Goal: You own a Goal Parser that can interpret a string command. The command consists of an alphabet of "G", "()" and/or "(al)" in some order. The Goal Parser will interpret "G" as the string "G", "()" as the string "o", and "(al)" as the string "al". The interpreted strings are then concatenated in the original order.
+
+Given the string command, return the Goal Parser's interpretation of command.
+
+- initial thoughts: the input consists of the characters "G", "()", and "(al)"
+- need to replace "()" with "o" and "(al)" with "al", while keeping "G" unchanged
+- this suggests a simple string replacement approach
+- since "()" and "(al)" always appear in fixed forms, we can directly replace them using .replace()
+- "G" stays the same, so we don't need to modify it
+- perform the replacements in order:
+- replace "()" with "o"
+- replace "(al)" with "al"
+- return the transformed string
+- key operations: .replace("()", "o") to replace "()" with "o" and
+use .replace("(al)", "al") to replace "(al)" with "al"
