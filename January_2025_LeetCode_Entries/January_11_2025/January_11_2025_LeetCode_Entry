@@ -32,3 +32,18 @@ Time Complexity:
 
 - Each .replace() call runs in O(n), where n is the length of command.
 - Summary: Since there are two .replace() calls, the overall complexity remains O(n).
+
+Space Conplexity:
+
+- The input string command is given, so its space complexity is O(n), 
+where n is the length of the string.
+- We create a new string for the result, which will also be of length O(n), 
+since we're simply replacing parts of the string with other fixed-length substrings.
+- We don't use any additional data structures like lists,
+so there's no extra memory beyond the result.
+- Summary: The total space complexity is O(n), where n is the length of the input string, 
+because we are creating a new string to hold the final result.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
