@@ -28,3 +28,14 @@ Time Complexity:
 - The method scans the string once and performs a replacement operation for each period ("."), which is done in O(n) time.
 - Summary: The overall time complexity is O(n), where n is the length of the input string, because 
 .replace() iterates through the string once.
+
+Space Complexity:
+
+- The input string address is given, so its space complexity is O(n), where n is the length of the string.
+- We create a new string for the result. This string will also be of length O(n) because we replace each period with [.], but the size remains the same.
+- We don't use any additional data structures like lists or dictionaries, so no extra memory is used beyond the result string.
+- Summary: The space complexity is O(n), where n is the length of the input string, because we create a new string to store the defanged version of the IP address.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
