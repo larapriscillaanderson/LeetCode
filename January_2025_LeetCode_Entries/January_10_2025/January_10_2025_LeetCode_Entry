@@ -24,3 +24,11 @@ Return the maximum number of words that appear in a single sentence.
 - return the highest word count at the end
 - key operation: since words in a sentence are separated by a single space, 
 use .split(" ") to break it into a list of words
+
+Time Complexity:
+
+- Splitting a sentence (sentence.split(" ")) takes O(n), where n is the number of characters in the sentence.
+- Looping through all sentences takes O(m), where m is the number of sentences.
+- In the worst case, all characters are processed in all sentences → O(m * n).
+- Summary: Since we do O(n) work for each of the M sentences, the overall complexity is:
+O(m * n).
