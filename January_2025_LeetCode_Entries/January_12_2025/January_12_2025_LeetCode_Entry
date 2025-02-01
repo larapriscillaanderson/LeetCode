@@ -21,3 +21,10 @@ Given the string command, return the Goal Parser's interpretation of command.
 - initial thoughts: loop through the string and replace every period (".") with [.]
 - return the updated string
 - key operation: use .replace()
+
+Time Complexity:
+
+- The .replace() method runs in O(n), where n is the length of the input string.
+- The method scans the string once and performs a replacement operation for each period ("."), which is done in O(n) time.
+- Summary: The overall time complexity is O(n), where n is the length of the input string, because 
+.replace() iterates through the string once.

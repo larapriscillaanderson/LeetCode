@@ -33,7 +33,7 @@ Time Complexity:
 - Each .replace() call runs in O(n), where n is the length of command.
 - Summary: Since there are two .replace() calls, the overall complexity remains O(n).
 
-Space Conplexity:
+Space Complexity:
 
 - The input string command is given, so its space complexity is O(n), 
 where n is the length of the string.
