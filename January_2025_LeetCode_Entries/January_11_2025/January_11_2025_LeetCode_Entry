@@ -27,3 +27,8 @@ Given the string command, return the Goal Parser's interpretation of command.
 - return the transformed string
 - key operations: .replace("()", "o") to replace "()" with "o" and
 use .replace("(al)", "al") to replace "(al)" with "al"
+
+Time Complexity:
+
+- Each .replace() call runs in O(n), where n is the length of command.
+- Summary: Since there are two .replace() calls, the overall complexity remains O(n).
