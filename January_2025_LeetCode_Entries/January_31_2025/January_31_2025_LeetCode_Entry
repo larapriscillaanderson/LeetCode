@@ -38,3 +38,13 @@ Time Complexity:
 
 - Each time the comparison of the middle element is done to the rightmost element, 
 the search space is halved, ensuring the time complexity is O(log n).
+
+Space Complexity:
+
+- No extra data structures were used (lists, dictionaries, recursion stack).
+- Only store three integer variables (left, right, mid), which use O(1) space.
+- Summary: The total space complexity is O(1), constant space.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
