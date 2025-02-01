@@ -32,3 +32,14 @@ Time Complexity:
 - In the worst case, all characters are processed in all sentences → O(m * n).
 - Summary: Since we do O(n) work for each of the M sentences, the overall complexity is:
 O(m * n).
+
+Space Complexity:
+
+- The input sentences is given, and storing integers does not count toward extra space usage.
+- The .split(" ") operation can have a worst case, if a sentence has n words, 
+the list has n elements.
+- Summary: That total space complexity is O(n), where n is the max number of words in a single sentence.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
