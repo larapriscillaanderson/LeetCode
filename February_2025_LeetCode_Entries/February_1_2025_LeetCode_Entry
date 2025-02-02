@@ -20,3 +20,12 @@ Each element in the result must be unique and you may return the result in any o
 - convert nums1 into a set to allow for easy lookups and duplicate removal
 - iterate through nums2, checking if each element exists in the nums1 set
 - store the elements in a separate results set
+
+Time Complexity:
+
+- Converting nums1 into a set takes O(n) time, where n is the length of nums1.
+- Iterating through nums2 takes O(m) time, where m is the length of nums2.
+- The if num in set1 operation is an O(1) average-time lookup because Python sets use a hash table.
+- Adding elements to the result set is an O(1) operation on average since set insertions are also hash-based.
+- Converting the final set into a list takes O(k) time, where k is the size of the intersection.
+- Summary: The total time complexity O(n + m).
