@@ -1,0 +1,22 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 32 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 1, 2025
+
+LeetCode Problem: Intersection of Two Arrays
+Link: https://leetcode.com/problems/intersection-of-two-arrays/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given two integer arrays nums1 and nums2, return an array of their intersection. 
+Each element in the result must be unique and you may return the result in any order.
+
+- initial thoughts: need to find the intersection of two arrays, without duplicates
+- a hash set approach is ideal because it allows for O(1) time for lookups
+- convert nums1 into a set to allow for easy lookups and duplicate removal
+- iterate through nums2, checking if each element exists in the nums1 set
+- store the elements in a separate results set
