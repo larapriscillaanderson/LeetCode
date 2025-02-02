@@ -37,7 +37,7 @@ Space Complexity:
 if all elements in nums2 are also in nums1.
 - The final conversion from a set to a list requires O(k) space,
 where k is the number of unique intersections.
-Summary: The worst-case space complexity is O(n) for storing nums1 plus O(k) for the intersection, 
+- Summary: The worst-case space complexity is O(n) for storing nums1 plus O(k) for the intersection, 
 leading to an overall space complexity of O(n + k).
 
 Solution: see attached .py file (Python 3)
