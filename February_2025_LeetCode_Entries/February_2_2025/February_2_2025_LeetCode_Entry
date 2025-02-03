@@ -27,3 +27,8 @@ since the odd one out can sit in the middle
 - traverse through the string, updating the frequency of each character
 - after counting the frequencies, check how many characters have an odd frequency
 - if more than one character has an odd frequency, return False, otherwise return True
+
+Time Complexity:
+
+- The main operation only loops through the string once and then through the dictionary.
+- Summary: The total time complexity is O(n), where n is the length of the string. 
