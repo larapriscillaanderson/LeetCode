@@ -32,3 +32,7 @@ Time Complexity:
 
 - The main operation only loops through the string once and then through the dictionary.
 - Summary: The total time complexity is O(n), where n is the length of the string. 
+
+Space Complexity:
+
+- Summary: The total space complexity is O(n), due to the dictionary storing character frequencies.
