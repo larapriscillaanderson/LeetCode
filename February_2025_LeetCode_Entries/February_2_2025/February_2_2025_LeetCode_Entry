@@ -1,0 +1,29 @@
+LeetCode Solutions and Notes
+
+Day 33 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 2, 2025
+
+LeetCode Problem: Palindrome Permutation
+Link: https://leetcode.com/problems/palindrome-permutation/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given a string s, return true if a permutation of the string could form a palindrome
+and false otherwise.
+
+- initial thoughts: for a string to be rearranged into a palindrome, 
+all characters must appear an even number of times
+- except for at most one character (which will be the middle character in the palindrome)
+- could use a hash map or dictionary approach to count how many times each character
+appears in the string
+- establish certain conditions to determine palindrome permutation
+- if more than one character has an odd frequency, it cannot form a palindrome
+- if one or zero characters have an odd frequency, it can form a palindrome,
+since the odd one out can sit in the middle
+- create an empty dictionary to store character frequencies
+- traverse through the string, updating the frequency of each character
+- after counting the frequencies, check how many characters have an odd frequency
+- if more than one character has an odd frequency, return False, otherwise return True
