@@ -28,3 +28,9 @@ Time Complexity:
 - Iterating through the nums array only once is O(n) time.
 - Inside the loop, all operations (absolute value, comparison, and assignment) are O(1).
 - Summary: Since there are no nested loops or extra iterations, the total time complexity is O(n).
+
+Space Complexity:
+
+- To use a single variable closest to store the result is just O(1).
+- No additional data structures are created (like lists, dictionaries, etc).
+- Summary: Since the space usage does not grow with input size, the total space complexity is O(1).
