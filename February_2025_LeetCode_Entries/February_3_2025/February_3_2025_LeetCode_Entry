@@ -11,7 +11,8 @@ Level: Easy
 
 **Notes:**
 
-Goal: Given an integer array nums of size n, return the number with the value closest to 0 in nums. If there are multiple answers, return the number with the largest value.
+Goal: Given an integer array nums of size n, return the number with the value closest to 0 in nums. 
+If there are multiple answers, return the number with the largest value.
 
 - initial thoughts: have to deal with the edge case of an empty array and integrate absolute value somehow
 - if nums is empty, return 0
