@@ -1,0 +1,24 @@
+LeetCode Solutions and Notes
+
+Day 34 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 3, 2025
+
+LeetCode Problem: Find Closest Number to Zero
+Link: https://leetcode.com/problems/find-closest-number-to-zero/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given an integer array nums of size n, return the number with the value closest to 0 in nums. If there are multiple answers, return the number with the largest value.
+
+- initial thoughts: have to deal with the edge case of an empty array and integrate absolute value somehow
+- if nums is empty, return 0
+- set closest to the first element in nums
+- loop through each number in nums, using a for loop
+- if the absolute value of num is smaller than the absolute value of closest,
+update closest to num
+- if the absolute values are the same but num is larger than closest,
+update closest to num
+- return the closest number
