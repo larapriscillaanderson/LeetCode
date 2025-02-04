@@ -22,3 +22,9 @@ update closest to num
 - if the absolute values are the same but num is larger than closest,
 update closest to num
 - return the closest number
+
+Time Complexity:
+
+- Iterating through the nums array only once is O(n) time.
+- Inside the loop, all operations (absolute value, comparison, and assignment) are O(1).
+- Summary: Since there are no nested loops or extra iterations, the total time complexity is O(n).
