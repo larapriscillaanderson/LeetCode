@@ -21,3 +21,11 @@ then return their difference
 - multiply product by the digit
 - add the digit to sum
 - return product - sum
+
+Time Complexity:
+
+- Converting n to a string and then iterating through its digits takes O(d) time,
+where d is the number of digits in n.
+- Inside the loop, both multiplication and addition operations are O(1).
+- Summary: Since the number of digits in n is at most log(n) (base 10), 
+the total time complexity is O(log n).
