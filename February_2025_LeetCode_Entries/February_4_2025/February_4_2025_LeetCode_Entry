@@ -29,3 +29,10 @@ where d is the number of digits in n.
 - Inside the loop, both multiplication and addition operations are O(1).
 - Summary: Since the number of digits in n is at most log(n) (base 10), 
 the total time complexity is O(log n).
+
+Space Complexity:
+
+- Storing the digits as a list takes O(d) space, where d is the number of digits in n.
+- Other variables (product and sum_digits) use O(1) space.
+- Summary: Since the number of digits is at most log(n), 
+the total space complexity is O(log n) due to storing the digit list.
