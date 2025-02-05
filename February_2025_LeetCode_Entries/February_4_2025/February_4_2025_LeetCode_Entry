@@ -1,0 +1,23 @@
+LeetCode Solutions and Notes
+
+Day 35 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 4, 2025
+
+LeetCode Problem: Subtract the Product and Sum of Digits of an Integer
+Link: https://leetcode.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/ 
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given an integer number n, return the difference between the product of its digits and the sum of its digits.
+
+- initial thoughts: need to extract each digit, compute both product and sum, 
+then return their difference
+- convert n into individual digits for an easy calculation
+- initialize product as 1 and sum as 0
+- loop through each digit using a for loop
+- multiply product by the digit
+- add the digit to sum
+- return product - sum
