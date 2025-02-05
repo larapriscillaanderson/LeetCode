@@ -36,3 +36,7 @@ Space Complexity:
 - Other variables (product and sum_digits) use O(1) space.
 - Summary: Since the number of digits is at most log(n), 
 the total space complexity is O(log n) due to storing the digit list.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
