@@ -25,4 +25,14 @@ Time Complexity:
 
 - Iterating through nums to populate count_map takes O(n).
 - Filtering the dictionary to extract valid elements takes O(n), worst case.
-Summary: The total time complexity is O(n).
+- Summary: The total time complexity is O(n).
+
+Space Complexity:
+
+- Dictionary count_map stores counts for up to n unique elements, 
+leading to O(n) space in the worst case.
+- Summary: The total space complexity is O(n).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
