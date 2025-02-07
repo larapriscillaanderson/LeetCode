@@ -20,3 +20,9 @@ of each number and find the one appearing more than n / 3 times
 - if the number is not in the dictionary, add it with a count of 1
 - filter the dictionary to collect elements appearing more than n / 3 times
 - return the list of the valid majority elements
+
+Time Complexity:
+
+- Iterating through nums to populate count_map takes O(n).
+- Filtering the dictionary to extract valid elements takes O(n), worst case.
+Summary: The total time complexity is O(n).
