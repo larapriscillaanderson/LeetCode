@@ -1,0 +1,22 @@
+LeetCode Solutions and Notes
+
+Day 37 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 6, 2025
+
+LeetCode Problem: Majority Element II
+Link: https://leetcode.com/problems/majority-element-ii/
+
+Level: Medium
+
+**Notes:**
+
+Goal: Given an integer array of size n, find all elements that appear more than ⌊n / 3⌋ times.
+
+- initial thoughts: could use a hash map approach to count the occurrences 
+of each number and find the one appearing more than n / 3 times
+- initialize an empty dictionary to store the counts
+- iterate through nums and update counts in the dictionary
+- if the number is not in the dictionary, add it with a count of 1
+- filter the dictionary to collect elements appearing more than n / 3 times
+- return the list of the valid majority elements
