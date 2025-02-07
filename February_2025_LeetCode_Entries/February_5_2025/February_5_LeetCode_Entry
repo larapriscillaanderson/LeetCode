@@ -16,11 +16,18 @@ Goal: Given an array nums of size n, return the majority element.
 The majority element is the element that appears more than ⌊n / 2⌋ times. 
 You may assume that the majority element always exists in the array.
 
-- initial thoughts: have to count the occurrences of each number 
-and find the one appearing more than n / 2 times
+- initial thoughts: could use a hash map approach to count the occurrences 
+of each number and find the one appearing more than n / 2 times
 - initialize an empty dictionary to store the counts
 - iterate through nums and update counts in the dictionary
 - if the number is not in the dictionary, add it with a count of 1
 - if it already exists, increment the count
 - check if any element's count exceeds n / 2
 - return the element
+
+Time Complexity:
+
+- Iterating through nums to populate the count_map takes O(1) time.
+- Updating dictionary counts is O(1).
+- Summary: The total time complexity is O(n) because the traversal
+of the array nums occurs once.
