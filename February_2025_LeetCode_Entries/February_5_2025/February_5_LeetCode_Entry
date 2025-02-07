@@ -31,3 +31,13 @@ Time Complexity:
 - Updating dictionary counts is O(1).
 - Summary: The total time complexity is O(n) because the traversal
 of the array nums occurs once.
+
+Space Complexity:
+
+- The dictionary count_map stores up to n elements in the worst case,
+that is when all elements are unique.
+- Summary: The total space complexity is O(n).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
