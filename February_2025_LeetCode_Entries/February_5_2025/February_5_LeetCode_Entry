@@ -1,1 +1,26 @@
-placeholder
+LeetCode Solutions and Notes
+
+Day 36 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 5, 2025
+
+LeetCode Problem: Majority Element
+Link: https://leetcode.com/problems/majority-element/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given an array nums of size n, return the majority element.
+
+The majority element is the element that appears more than ⌊n / 2⌋ times. 
+You may assume that the majority element always exists in the array.
+
+- initial thoughts: have to count the occurrences of each number 
+and find the one appearing more than n / 2 times
+- initialize an empty dictionary to store the counts
+- iterate through nums and update counts in the dictionary
+- if the number is not in the dictionary, add it with a count of 1
+- if it already exists, increment the count
+- check if any element's count exceeds n / 2
+- return the element
