@@ -23,3 +23,9 @@ should be preserved
 - if the character is already in the dictionary, increment its count
 - iterate through s again to find the first character with a count of 1 in the dictionary
 - return the index, otherwise if not found return -1 
+
+Time Complexity:
+
+- Iterating through s to populate character_count takes O(n).
+- Iterating through s again to find the first unique character takes O(n), worst case.
+- Summary: The total time complexity is O(n) + O(n) = O(n).
