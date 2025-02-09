@@ -33,3 +33,13 @@ Time Complexity:
 - Iterating through s to populate character_count takes O(n).
 - Iterating through s again to find the first unique character takes O(n), worst case.
 - Summary: The total time complexity is O(n) + O(n) = O(n).
+
+Space Complexity:
+
+- Dictionary character_count stores counts for up to n unique characters, 
+leading to O(n), worst case.
+- Summary: The total space complexity is O(n).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
