@@ -27,3 +27,9 @@ If it does not exist, return -1.
 - use enumerate() to track both index and character
 - if the character's count is 1, return its index
 - if no unique character exists, return -1
+
+Time Complexity: 
+
+- Iterating through s to populate character_count takes O(n).
+- Iterating through s again to find the first unique character takes O(n), worst case.
+- Summary: The total time complexity is O(n) + O(n) = O(n).
