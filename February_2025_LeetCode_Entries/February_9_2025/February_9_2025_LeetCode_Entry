@@ -1,0 +1,34 @@
+LeetCode Solutions and Notes
+
+Day 40 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 9, 2025
+
+LeetCode Problem: Group Anagrams
+Link: https://leetcode.com/problems/group-anagrams/
+
+Level: Medium
+
+**Notes:**
+
+Goal: Given an array of strings strs, group the anagrams together. 
+You can return the answer in any order.
+
+- initial thoughts: two words are anagrams if they have the same characters in
+the same frequency
+- a hash map approach can be used based on the unique key representing
+character composition
+- groups need to be returned, so a hash map should map the anagram pattern
+to a list of words that match
+- key: a unique signature for each anagram (sorted tuple of letters)
+- value: a list of words that match the signature
+- initialize an empty dictionary to store the anagram groups
+- iterate through the list of strings
+- convert each word to a sorted tuple
+- "eat" -> ('a', 'e', 't')
+- check if the sorted tuple exists in the dictionary
+- if not, initialize it with an empty list (anagrams[key] = [])
+- append the word to the corresponding list
+- return the values of the dictionary, which are the grouped anagrams,
+but they are in a list of lists form
+ 
