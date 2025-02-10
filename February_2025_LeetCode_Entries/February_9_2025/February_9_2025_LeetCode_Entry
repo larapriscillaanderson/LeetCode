@@ -31,4 +31,13 @@ to a list of words that match
 - append the word to the corresponding list
 - return the values of the dictionary, which are the grouped anagrams,
 but they are in a list of lists form
- 
+
+Time Complexity:
+
+- Each word is sorted individually, which takes O(k log k) time,
+where k is the length of the word.
+- Process each word once, contributing O(n) to the runtime.
+- Both inserting into and looking up in a dictionary take O(1) on average.
+- Extracting dictionary values takes O(n).
+- Summary: The total time complexity is O(n * k log k), 
+since each word requires sorting and the process goes through n words.
