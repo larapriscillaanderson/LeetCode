@@ -41,3 +41,16 @@ where k is the length of the word.
 - Extracting dictionary values takes O(n).
 - Summary: The total time complexity is O(n * k log k), 
 since each word requires sorting and the process goes through n words.
+
+Space Complexity:
+
+- The dictionary stores up to n unique keys (each anagram signature), 
+leading to O(n), worst case.
+- Sorting a word takes O(k) space if Python’s sorting algorithm is not in-place.
+- Grouping words in lists, requires O(n) space.
+- Summary: The total space complexity is O(n * k), 
+where n is the number of words and k is the average word length.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
