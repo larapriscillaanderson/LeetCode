@@ -33,3 +33,12 @@ its value must match s[i]
 - otherwise return False
 - if neither mapping exists, create a new mapping in both dictionaries
 - return True if all mappings are consistent throughout
+
+Time Complexity:
+
+- Iterate through both strings once, so the loop runs in O(n) time, 
+where n is the length of the strings.
+- Checking and inserting into a dictionary takes O(1) time on average 
+(since dictionaries are implemented as hash maps).
+- Summary: Perform constant-time operations inside the loop, thus
+the total time complexity is O(n).
