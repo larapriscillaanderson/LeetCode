@@ -1,0 +1,35 @@
+LeetCode Solutions and Notes
+
+Day 41 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 10, 2025
+
+LeetCode Problem: Isomorphic Strings
+Link: https://leetcode.com/problems/isomorphic-strings/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given two strings s and t, determine if they are isomorphic.
+
+Two strings s and t are isomorphic if the characters in s can be replaced to get t.
+
+All occurrences of a character must be replaced with another character 
+while preserving the order of characters. 
+No two characters may map to the same character, 
+but a character may map to itself.
+
+- initial thoughts: need to check if two strings, s and t, 
+can be transformed into each other by replacing characters
+- could use a hash map approach, but need to track the mappings in
+both directions s_to_t and t_to_s
+- iterate through both things simultaneously, check for each character pair
+- check if s[i] is already mapped, if s[i] exists in s_to_t,
+its value must match t[i]
+- otherwise return False
+- check if t[i] is already mapped, if t[i] exists in t_to_s,
+its value must match s[i]
+- otherwise return False
+- if neither mapping exists, create a new mapping in both dictionaries
+- return True if all mappings are consistent throughout
