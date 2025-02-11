@@ -42,3 +42,15 @@ where n is the length of the strings.
 (since dictionaries are implemented as hash maps).
 - Summary: Perform constant-time operations inside the loop, thus
 the total time complexity is O(n).
+
+Space Complexity:
+
+- Maintain two dictionaries, s_to_t and t_to_s, each storing at most n key-value pairs
+in the worst case (if all characters are unique).
+- This results in O(n) space for storing mappings.
+- No additional space is used apart from these dictionaries and a few variables.
+- Summary: The total space complexity is O(n).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
