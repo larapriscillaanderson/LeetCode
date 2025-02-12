@@ -1,0 +1,27 @@
+LeetCode Solutions and Notes
+
+Day 41 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 11, 2025
+
+LeetCode Problem: Top K Frequent Elements
+Link: https://leetcode.com/problems/top-k-frequent-elements/
+
+Level: Medium
+
+**Notes:**
+
+Goal: Given an integer array nums and an integer k, return the k most frequent elements. 
+You may return the answer in any order.
+
+- initial thoughts: this requires finding the k most frequent elements in an array
+- a hash map approach can be used to count the occurrences of each element
+- need a way to extract the top k elements based on the frequency
+- a heap (priority queue) is useful for this, since it can retrieve the largest k elements
+- key: the element from the array
+- value: the count of occurrences of that element
+- initialize an empty dictionary to store element counts
+- iterate through the list and populate the dictionary (num_counts[element] = frequency)
+- use a heap (min-heap of size k) to keep track of the top k elements
+- if the heap exceeds size k, remove the smallest frequency element
+- extract the k most frequent elements from the heap and return them
