@@ -25,3 +25,11 @@ You may return the answer in any order.
 - use a heap (min-heap of size k) to keep track of the top k elements
 - if the heap exceeds size k, remove the smallest frequency element
 - extract the k most frequent elements from the heap and return them
+
+Time Complexity:
+
+- Counting occurrences in the dictionary takes O(n) time.
+- Adding elements to the heap takes O(n log k) time, because of pushing each 
+element once and then maintaining a heap of size k
+- Extracting k elements from the heap takes O(k log k) time
+- Summary: The total time complexity is O(n log k).
