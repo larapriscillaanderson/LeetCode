@@ -38,3 +38,12 @@ Time Complexity:
 
 - Summary: The total time complexity is O(log n) because the sum of squares of 
 digits reduces the size of the number logarithmically.
+
+Space Complexity:
+
+- Summary: The total space complexity is O(log n) as well, 
+due to the set storing the encountered numbers.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
