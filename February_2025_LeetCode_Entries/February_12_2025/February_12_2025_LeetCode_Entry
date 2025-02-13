@@ -1,0 +1,35 @@
+LeetCode Solutions and Notes
+
+Day 43 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 12, 2025
+
+LeetCode Problem: Happy Number
+Link: https://leetcode.com/problems/happy-number/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Write an algorithm to determine if a number n is happy.
+
+A happy number is a number defined by the following process:
+
+Starting with any positive integer, replace the number by the sum of the squares of its digits.
+Repeat the process until the number equals 1 (where it will stay), 
+or it loops endlessly in a cycle which does not include 1.
+Those numbers for which this process ends in 1 are happy.
+Return true if n is a happy number, and false if not.
+
+- initial thoughts: a happy number is a number that eventually becomes 1 
+after repeatedly replacing the number with the sum of the squares of its digits
+- if the number falls into a cycle that doesn't include 1, it's not a happy number
+- a cycle occurs if you encounter the same number again before reaching 1 
+- this means there needs to be a way to track numbers that were already processed
+- a hash set can be used to store the numbers encountered during the process
+- initialize an empty set seen to store numbers already processed
+- define  helper function to calculate the sum of squares of the digits of a number
+- while n is not 1, compute the sum of squares of the digits
+- if the new n is already in the set, return false (cycle detected)
+- add n to the set and continue
+- if you reach n == 1, return true (happy number)
