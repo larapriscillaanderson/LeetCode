@@ -33,3 +33,8 @@ after repeatedly replacing the number with the sum of the squares of its digits
 - if the new n is already in the set, return false (cycle detected)
 - add n to the set and continue
 - if you reach n == 1, return true (happy number)
+
+Time Complexity:
+
+- Summary: The total time complexity is O(log n) because the sum of squares of 
+digits reduces the size of the number logarithmically.
