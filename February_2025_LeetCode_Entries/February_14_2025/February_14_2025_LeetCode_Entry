@@ -39,3 +39,15 @@ runs O(n) in the worst case.
 with the sorting step contributing O(n log n).
 - Summary: The total time complexity is O(n³) due to the three nested loops 
 (i, j, and two-pointer traversal).
+
+Space Complexity:
+
+- The array nums is sorted in-place, so no additional space is used for sorting.
+- The result list stores the quadruplets, which can hold up to O(n) 
+unique quadruplets in the worst case.
+- We use only a constant amount of extra space for variables (i, j, left, right, etc.).
+- Summary: The total space complexity is O(n) due to the space required for storing the result.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
