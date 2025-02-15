@@ -27,3 +27,15 @@ could use twosum hash map idea/simple dictionary
 - once two numbers are found, two remain
 - the remaining two can be nums[left] and nums[right] = complement
 - the equation would then be complement = target - nums[i] - nums[j]
+
+Time Complexity:
+
+- Sorting the array takes O(n log n), where n is the length of the array.
+- The outer loop over i runs O(n) times.
+- The inner loop over j runs O(n) times for each i.
+- For each pair (i, j), the two-pointer technique (left and right pointers) 
+runs O(n) in the worst case.
+- The overall complexity of the algorithm is dominated by the loops, 
+with the sorting step contributing O(n log n).
+- Summary: The total time complexity is O(n³) due to the three nested loops 
+(i, j, and two-pointer traversal).
