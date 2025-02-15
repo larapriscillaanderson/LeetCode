@@ -1,0 +1,29 @@
+LeetCode Solutions and Notes
+
+Day 45 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 14, 2025 ** Happy Valentine's Day (: <3 **
+
+LeetCode Problem: 4Sum
+Link: https://leetcode.com/problems/4sum/
+
+Level: Medium
+
+**Notes:**
+
+Goal: Given an array nums of n integers, return an array of all the unique quadruplets
+[nums[a], nums[b], nums[c], nums[d]] such that:
+
+0 <= a, b, c, d < n
+a, b, c, and d are distinct.
+nums[a] + nums[b] + nums[c] + nums[d] == target
+You may return the answer in any order.
+
+- initial approach: find four numbers that sum up to the target, 
+could use twosum hash map idea/simple dictionary
+- sort the array to avoid duplicate quadruplets
+- sorting will also make it easier to use a two-pointer approach
+- use a nested loop like nums[i] and nums[j] to fix two numbers
+- once two numbers are found, two remain
+- the remaining two can be nums[left] and nums[right] = complement
+- the equation would then be complement = target - nums[i] - nums[j]
