@@ -20,7 +20,7 @@ nums[a] + nums[b] + nums[c] + nums[d] == target
 You may return the answer in any order.
 
 - initial approach: find four numbers that sum up to the target, 
-could use twosum hash map idea/simple dictionary
+could use two sum hash map idea/simple dictionary
 - sort the array to avoid duplicate quadruplets
 - sorting will also make it easier to use a two-pointer approach
 - use a nested loop like nums[i] and nums[j] to fix two numbers
