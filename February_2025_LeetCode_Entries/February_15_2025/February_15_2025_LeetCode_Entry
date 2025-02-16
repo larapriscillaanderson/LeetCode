@@ -1,0 +1,33 @@
+LeetCode Solutions and Notes
+
+Day 46 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 15, 2025
+
+LeetCode Problem: 3Sum
+Link: https://leetcode.com/problems/3sum/
+
+Level: Medium
+
+**Notes:**
+
+Goal: Given an integer array nums, return all the triplets 
+[nums[i], nums[j], nums[k]] such that i != j, i != k, and j != k, 
+and nums[i] + nums[j] + nums[k] == 0.
+
+Notice that the solution set must not contain duplicate triplets.
+
+- initial approach: find three numbers that sum up to zero, 
+similar to the two-sum problem but with three elements instead of two
+- sort the array to avoid duplicate triplets
+- sorting will also make it easier to use a two-pointer approach
+- use a loop like nums[i] to fix one number
+- once one number is fixed, two remain
+- the remaining two can be nums[left] and nums[right] = complement
+- the equation would then be: complement = -nums[i] (so nums[left] + nums[right] = -nums[i])
+
+** NOTE: this will take more depth and time to learn, will resume tomorrow. **
+
+Solution: see attached .py file (Python 3) ** just pseudocode because will revisit **
+
+Revisit? Yes
