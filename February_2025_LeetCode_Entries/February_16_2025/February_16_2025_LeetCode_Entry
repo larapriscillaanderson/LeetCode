@@ -25,3 +25,11 @@ similar to the two-sum problem but with three elements instead of two
 - once one number is fixed, two remain
 - the remaining two can be nums[left] and nums[right] = complement
 - the equation would then be: complement = -nums[i] (so nums[left] + nums[right] = -nums[i])
+
+Time Complexity:
+
+- Sorting the array takes O(n log n) time.
+- The outer loop runs for each element, O(n) times.
+- Inside the loop, use of the two-pointer approach runs in O(n) time.
+- Since the two-pointer method runs for every i, the nested operation is O(n²) in total.
+- Summary: The total time complexity is O(n²).
