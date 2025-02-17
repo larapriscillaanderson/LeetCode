@@ -33,3 +33,12 @@ Time Complexity:
 - Inside the loop, use of the two-pointer approach runs in O(n) time.
 - Since the two-pointer method runs for every i, the nested operation is O(n²) in total.
 - Summary: The total time complexity is O(n²).
+
+Space Complexity:
+
+- The sorting operation takes O(n) space (depending on the sorting algorithm, 
+but usually ignored in in-place sorting).
+- The result list stores unique triplets, which at worst could be O(n) space 
+(though typically much smaller).
+- No extra data structures like hash maps or heaps were used.
+- Summary: The total space complexity is O(n).
