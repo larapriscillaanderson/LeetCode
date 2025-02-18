@@ -1,0 +1,26 @@
+LeetCode Solutions and Notes
+
+Day 48 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 17, 2025
+
+LeetCode Problem: Move Zeroes
+Link: https://leetcode.com/problems/move-zeroes/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given an integer array nums, move all 0's to the end of it while maintaining the relative order of the non-zero elements.
+
+Note that you must do this in-place without making a copy of the array.
+
+- initial thoughts: need to move all 0s to the end without changing the order of non-zero numbers
+- the question requires an in-place solution, we cannot use extra space like making a new array
+- can solve using a two pointer approach
+- use a nonZeroIndex pointer to track where the next non-zero number should go
+- loop through the array
+- if nums[i] is non-zero, swap it with nums[nonZeroIndex]
+- move nonZeroIndex forward
+- once done, all non-zero numbers will be shifted to the left, 
+and remaining spaces will be filled with 0s
