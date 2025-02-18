@@ -24,3 +24,11 @@ Note that you must do this in-place without making a copy of the array.
 - move nonZeroIndex forward
 - once done, all non-zero numbers will be shifted to the left, 
 and remaining spaces will be filled with 0s
+
+Time Complexity:
+
+- Iterate through the array once with a single for loop → O(n).
+- Inside the loop, at most one swap operation happens for each non-zero element, 
+which is O(1).
+- Since swapping happens at most n times, the total time complexity remains O(n).
+- Summary: The total time complexity is O(n).
