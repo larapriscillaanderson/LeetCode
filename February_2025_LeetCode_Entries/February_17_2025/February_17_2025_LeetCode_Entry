@@ -32,3 +32,16 @@ Time Complexity:
 which is O(1).
 - Since swapping happens at most n times, the total time complexity remains O(n).
 - Summary: The total time complexity is O(n).
+
+Space Complexity: 
+
+- Perform all operations in place, modifying the original nums array.
+- No extra data structures like hash maps or auxiliary arrays are used.
+- The only extra space used is for a single integer variable (nonZeroIndex), 
+which is O(1).
+- Summary: The total space complexity is O(1).
+
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
