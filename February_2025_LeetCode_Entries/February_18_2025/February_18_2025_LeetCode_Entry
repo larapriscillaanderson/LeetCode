@@ -26,3 +26,10 @@ initialize the first two numbers in a list
 - compute the next Fibonacci number as the sum of the previous two
 - append the computed value to the list
 - final step: return the n-1th index from the list, as lists are zero-based
+
+Time Complexity:
+
+- Iterate through the loop once from 2 to n → O(n).
+- Inside the loop, each Fibonacci number is calculated, constant time addition operation → O(1).
+- Since there are n - 1 iterations (for n ≥ 2), the total time complexity remains O(n).
+- Summary: The total time complexity is O(n).
