@@ -33,3 +33,14 @@ Time Complexity:
 - Inside the loop, each Fibonacci number is calculated, constant time addition operation → O(1).
 - Since there are n - 1 iterations (for n ≥ 2), the total time complexity remains O(n).
 - Summary: The total time complexity is O(n).
+
+Space Complexity:
+
+- Store all Fibonacci numbers in a list (fib_series), which grows linearly with n → O(n).
+- No additional data structures (like hash maps or auxiliary arrays) are used.
+- Only a few integer variables (index, next_number) are used, which take O(1) space.
+- Summary: The total space complexity is O(n) due to the list storing all computed values.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No

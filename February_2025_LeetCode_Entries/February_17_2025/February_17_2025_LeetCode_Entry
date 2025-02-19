@@ -41,7 +41,6 @@ Space Complexity:
 which is O(1).
 - Summary: The total space complexity is O(1).
 
-
 Solution: see attached .py file (Python 3)
 
 Revisit? Yes
