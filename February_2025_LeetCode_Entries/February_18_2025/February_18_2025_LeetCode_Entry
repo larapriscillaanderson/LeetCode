@@ -1,0 +1,28 @@
+LeetCode Solutions and Notes
+
+Day 49 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 18, 2025
+
+LeetCode Problem: Fibonacci Number
+Link: https://leetcode.com/problems/fibonacci-number/
+
+Level: Easy
+
+**Notes:**
+
+Goal: The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is,
+
+F(0) = 0, F(1) = 1
+F(n) = F(n - 1) + F(n - 2), for n > 1.
+Given n, calculate F(n).
+
+- initial thoughts: requires computing the Fibonacci number at index n, 
+where each number is the sum of the two preceding numbers
+- use an iterative approach with a list to store computed values
+- base case: the Fibonacci sequence starts with 1, 1,
+initialize the first two numbers in a list
+- start iterating loop from index 2 up to n - 1 (since Python uses zero-based indexing)
+- compute the next Fibonacci number as the sum of the previous two
+- append the computed value to the list
+- final step: return the n-1th index from the list, as lists are zero-based
