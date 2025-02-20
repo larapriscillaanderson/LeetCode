@@ -23,3 +23,7 @@ but the range has n + 1 elements
 - could use a sum formula approach
 - the sum of numbers should be n(n + 1) / 2
 - the missing number = expected sum - actual sum
+
+Time Complexity:
+
+- Summary: The total time complexity is O(n) because iterate through nums once for sum(nums).
