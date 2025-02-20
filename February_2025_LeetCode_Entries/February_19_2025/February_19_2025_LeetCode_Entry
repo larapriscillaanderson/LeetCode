@@ -1,0 +1,25 @@
+LeetCode Solutions and Notes
+
+Day 50 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 19, 2025
+
+LeetCode Problem: Missing Number
+Link: https://leetcode.com/problems/missing-number/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given an array nums containing n distinct numbers in the range [0, n], 
+return the only number in the range that is missing from the array.
+
+- initial thoughts: have an array of n distinct numbers
+- the range is from 0 to n (inclusive)
+- one number is missing from the range
+- need to find and return the missing number
+- key idea: since one number is missing, the array length is n, 
+but the range has n + 1 elements
+- could use a sum formula approach
+- the sum of numbers should be n(n + 1) / 2
+- the missing number = expected sum - actual sum
