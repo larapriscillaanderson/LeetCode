@@ -1,8 +1,9 @@
 LeetCode Solutions and Notes
 
-Day 51 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+Day 51 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for
+LeetCode problems.
 
-February 20, 2025
+February 21, 2025
 
 LeetCode Problem: Two Sum II - Input Array Is Sorted
 Link: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
@@ -30,9 +31,3 @@ that add up to a given target
 (so have to add 1 to each index before returning)
 - also a limitation is cannot use the same element twice
 - since the array is already sorted, could use a two pointer approach
-
-** NOTE: this will take more depth and time to learn, will resume tomorrow. **
-
-Solution: see attached .py file (Python 3) ** just pseudocode because will revisit **
-
-Revisit? Yes
