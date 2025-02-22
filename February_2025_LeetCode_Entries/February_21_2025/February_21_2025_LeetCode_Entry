@@ -31,3 +31,9 @@ that add up to a given target
 (so have to add 1 to each index before returning)
 - also a limitation is cannot use the same element twice
 - since the array is already sorted, could use a two pointer approach
+
+Time Complexity:
+
+- Only traverse through the array once, using two pointers.
+- No nested loops.
+- Summary: The total time complexity is O(n).
