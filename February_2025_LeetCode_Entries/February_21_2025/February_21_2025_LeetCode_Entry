@@ -37,3 +37,13 @@ Time Complexity:
 - Only traverse through the array once, using two pointers.
 - No nested loops.
 - Summary: The total time complexity is O(n).
+
+Space Complexity:
+
+- Only use two variables, left and right.
+- No extra data structures are used, like a hash map or list.
+- Summary: The total space complexity is O(1).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
