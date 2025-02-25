@@ -46,3 +46,16 @@ Time Complexity:
 for each distance is O(k), where k is the number of unique distances.
 - In the worst case, this is O(n) because there could be a unique distance for each pair.
 - Summary: The total time complexity is O(n^2), where n is the number of points.
+
+Space Complexity:
+
+- Distance dictionary: For each point i, store distances to other points in a dictionary. 
+- In the worst case, could have n - 1 unique distances (one for each other point). 
+- Therefore, the space used for each dictionary is O(n).
+- The dictionary is used per point, and we are using extra space for counting boomerangs. 
+- So the space complexity is O(n) for each iteration of the outer loop.
+- Summary: The total space complexity is O(n), where n is the number of points.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
