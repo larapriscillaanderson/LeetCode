@@ -1,6 +1,6 @@
 LeetCode Solutions and Notes
 
-Day 52 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+Day 53 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
 
 February 22, 2025
 
@@ -36,3 +36,9 @@ d = (xj - xi)^2 + (yj - yi)^2
 - Store the frequency of each distance in distance_count.
 - For each distance with m points, add m * (m - 1) to the boomerang count.
 - Return the total count at the end.
+
+** NOTE: this will take more depth and time to learn, will resume tomorrow. **
+
+Solution: see attached .py file (Python 3) ** just pseudocode because will revisit **
+
+Revisit? Yes
