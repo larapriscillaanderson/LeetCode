@@ -1,1 +1,38 @@
-placeholder
+LeetCode Solutions and Notes
+
+Day 54 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 24, 2025
+
+LeetCode Problem: Find the Difference
+Link: https://leetcode.com/problems/number-of-boomerangs/
+
+Level: Medium
+
+**Notes:**
+
+Goal: You are given n points in the plane that are all distinct, where points[i] = [xi, yi]. A boomerang is a tuple of points (i, j, k) such that the distance between i and j equals the distance between i and k (the order of the tuple matters).
+
+Return the number of boomerangs.
+
+- initial thoughts: given n distinct points on a 2D plane, a boomerang is a tuple (i, j, k)
+- the distance between i and j is the same as the distance between i and k
+- the order matters → (i, j, k) is different from (i, k, j)
+- need to count all such valid boomerangs
+- could use a hash map approach to count distances
+- if multiple points have the same distance from a fixed point i, 
+could form boomerangs from them
+
+Math Breakdown:
+
+- If m points share the same distance to i, they can form m * (m - 1) 
+boomerangs (since order matters).
+- Example: If 3 points are at the same distance → can arrange them as 6 boomerangs (3 * 2 = 6).
+- Iterate through each point i in points.
+- For each i, create a dictionary (distance_count) to track the number of points 
+at each distance from i.
+- Loop through all other points j and calculate the squared Euclidean distance:
+d = (xj - xi)^2 + (yj - yi)^2
+- Store the frequency of each distance in distance_count.
+- For each distance with m points, add m * (m - 1) to the boomerang count.
+- Return the total count at the end.
