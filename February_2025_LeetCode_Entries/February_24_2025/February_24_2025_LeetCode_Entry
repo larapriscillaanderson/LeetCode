@@ -30,3 +30,14 @@ Time Complexity:
 - Adding each character to the dictionary will bring this time to O(n).
 - Looping through t once, adjusting character counts in the dictionary is also O(n).
 - Summary: Since both loops run in a linear time, the total time complexity is O(n).
+
+Space Complexity:
+
+- Since the strings are working with letters (a-z), the maximum number of unique keys
+in the dictionary is 26 (constant).
+- Even if string 's' is long, will never store more than 26 unique letters.
+- Summary: The total space complexity is O(1).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
