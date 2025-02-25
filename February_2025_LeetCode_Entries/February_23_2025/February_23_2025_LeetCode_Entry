@@ -36,3 +36,13 @@ d = (xj - xi)^2 + (yj - yi)^2
 - Store the frequency of each distance in distance_count.
 - For each distance with m points, add m * (m - 1) to the boomerang count.
 - Return the total count at the end.
+
+Time Complexity:
+
+- Outer loop: Iterates over all n points, so this part is O(n).
+- Inner loop: For each point i, we compare it to all other points j, again O(n).
+- Distance calculation: For each pair of points, the distance is calculated in constant time O(1) since simply performing arithmetic operations.
+- Counting boomerangs: Use a dictionary, and finding the number of boomerangs 
+for each distance is O(k), where k is the number of unique distances.
+- In the worst case, this is O(n) because there could be a unique distance for each pair.
+- Summary: The total time complexity is O(n^2), where n is the number of points.
