@@ -23,3 +23,10 @@ Return the letter that was added to t.
 - loop through t, decrement counts from hash map
 - the letter with a negative or missing count is the extra letter
 - key idea: iterate through string t, checking if character count goes below zero
+
+Time Complexity:
+
+- Building the frequency dictionary requires looping through s once.
+- Adding each character to the dictionary will bring this time to O(n).
+- Looping through t once, adjusting character counts in the dictionary is also O(n).
+- Summary: Since both loops run in a linear time, the total time complexity is O(n).
