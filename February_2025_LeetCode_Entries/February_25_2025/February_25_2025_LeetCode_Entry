@@ -1,0 +1,26 @@
+LeetCode Solutions and Notes
+
+Day 56 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 25, 2025
+
+LeetCode Problem: Jewels and Stones
+Link: https://leetcode.com/problems/jewels-and-stones/
+
+Level: Easy
+
+**Notes:**
+
+Goal: You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.
+
+Letters are case sensitive, so "a" is considered a different type of stone from "A".
+
+- initial thoughts: have to count how many stones are jewels,
+could use a set (or dictionary) for quick lookups
+- jewels: a string representing the types of stones that are jewels,
+each character is a unique jewel type
+- stones: a string representing the stones you have,
+each character is a stone type
+- goal is to return the number of stones that are also jewels
+- store all jewel characters in a set
+- iterate through stones and count how many exist in the set
