@@ -31,3 +31,13 @@ Time Complexity:
 - Iterating through 'stones' and checking membership in the set takes O(S), 
 where S is the length of 'stones'.
 - Summary: the total time complexity is O(J + S).
+
+Space Complexity:
+
+- The set 'jewel_set' stores unique jewel types, requiring O(J) space.
+- No additional data structures of significant size are used.
+- Summary: the total space complexity is O(J).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
