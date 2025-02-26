@@ -24,3 +24,10 @@ each character is a stone type
 - goal is to return the number of stones that are also jewels
 - store all jewel characters in a set
 - iterate through stones and count how many exist in the set
+
+Time Complexity:
+
+- Converting the 'jewels' string into a set takes O(J), where J is the length of 'jewels'.
+- Iterating through 'stones' and checking membership in the set takes O(S), 
+where S is the length of 'stones'.
+- Summary: the total time complexity is O(J + S).
