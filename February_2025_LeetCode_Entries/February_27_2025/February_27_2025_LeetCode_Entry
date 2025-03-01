@@ -1,1 +1,42 @@
-placeholder
+LeetCode Solutions and Notes
+
+Day 58 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 27, 2025
+
+LeetCode Problem: Valid Sudoku
+Link: https://leetcode.com/problems/valid-sudoku/ 
+
+Level: Medium
+
+**Notes:**
+
+Goal: Determine if a 9 x 9 Sudoku board is valid. Only the filled cells need to be validated according to the following rules:
+
+Each row must contain the digits 1-9 without repetition.
+Each column must contain the digits 1-9 without repetition.
+Each of the nine 3 x 3 sub-boxes of the grid must contain the digits 1-9 without repetition.
+Note:
+
+A Sudoku board (partially filled) could be valid but is not necessarily solvable.
+Only the filled cells need to be validated according to the mentioned rules.
+
+- initial thoughts: given a 9 x 9 Sudoku board, but it may be partially filled
+- goal is to check the board validity under certain conditions
+- each row must have unique digits (1-9)
+- each column must have unique digits (1-9)
+- each 3 x 3 sub-box must have unique digits (1-9)
+- Note: the board may be incomplete, but goal is to just check validity
+- empty cells are represented as '.' and can be ignored
+- initial approach: could use a hash map for a variety of purposes
+- a set for each row to track seen numbers
+- a set for each column to track seen numbers
+- a set for each 3 x 3 sub-box to track seen numbers
+- loop through each cell (r, c) in the board
+- check if the cell contains a number (1-9)
+- check the row set, if a number already exists, return False
+- check the column set, if a number already exists, return False
+- check the sub-box set, calculate which 3 x 3 box it belongs to using
+the formula (r // 3, c // 3)
+- add the number to the corresponding sets if it's not found
+- if it completes the iterations without violations, return True
