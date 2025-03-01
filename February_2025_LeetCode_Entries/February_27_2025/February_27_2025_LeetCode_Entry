@@ -46,3 +46,15 @@ Time Complexity:
 - Iterating through all 81 cells in the 9x9 board once, making the time complexity O(81) = O(1) (constant time).
 - Checking and inserting into a set takes O(1) time, so all operations within each cell run in constant time.
 - Summary: Since we only perform a fixed number of operations per cell, the total time complexity remains O(1).
+
+Space Complexity:
+
+- Store sets for 9 rows, 9 columns, and 9 boxes, each holding at most 9 elements, 
+leading to O(9 × 3) = O(1) space.
+- Each set stores at most 9 unique numbers, making the space usage bounded by a constant.
+- Summary: Don’t use extra data structures proportional to input size, 
+the overall space complexity remains O(1).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
