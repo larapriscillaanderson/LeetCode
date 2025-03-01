@@ -43,3 +43,16 @@ return False
 return False
 - otherwise, add new mapping
 - return True if successfully iterated without conflicts
+
+Time Complexity:
+
+- Splitting the string s into words takes O(n) time, where n is the number 
+of characters in s.
+- Checking length mismatch: len(pattern) != len(words) runs in 
+O(1) time since it's a single comparison.
+- Iterating through both using zip(pattern, words), which is O(k), 
+where k is the number of words in s. 
+- Each dictionary lookup and insertion (char_to_word[char], word_to_char[word]) 
+runs in O(1) on average, making the loop O(k).
+- Summary: The total time complexity is O(n) since k (the number of words) is 
+proportional to n (length of s).
