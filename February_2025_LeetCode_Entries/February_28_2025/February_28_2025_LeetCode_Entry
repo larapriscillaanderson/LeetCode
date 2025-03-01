@@ -1,0 +1,45 @@
+LeetCode Solutions and Notes
+
+Day 59 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+February 28, 2025
+
+LeetCode Problem: Word Pattern
+Link: https://leetcode.com/problems/word-pattern/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given a pattern and a string s, find if s follows the same pattern.
+
+Here follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s. Specifically:
+
+Each letter in pattern maps to exactly one unique word in s.
+Each unique word in s maps to exactly one letter in pattern.
+No two letters map to the same word, and no two words map to the same letter.
+
+- initial thoughts: given a pattern string and a s string (a sentence)
+- need to check if there is a one-to-one mapping between each character in pattern
+and each unique word in s
+- there can't be mismatches, and two characters cannot map to the same word vice versa
+- if pattern and s have a different number of elements, it automatic mismatch
+- key idea: can check this by splitting s into words and comparing lengths
+- also need to handle duplicates and conflicts
+- if a character in pattern appears twice, it must be mapped to the same word 
+in s both times
+- if a word in s appears twice, it must be mapped to the same character in pattern
+both times
+- convert s to a list using .split()
+- check if len(pattern) != len(words) 
+- if not the same, return False
+- hash map approach can be used by creating two dictionaries
+- char_to_word: maps characters from pattern to words in s
+- word_to_char: maps words from s to characters in pattern
+- iterate through both pattern and words simultaneously
+- if a character is already mapped but does not match current word,
+return False
+- if a word is already mapped but does not match the current character,
+return False
+- otherwise, add new mapping
+- return True if successfully iterated without conflicts
