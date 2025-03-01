@@ -40,3 +40,9 @@ Only the filled cells need to be validated according to the mentioned rules.
 the formula (r // 3, c // 3)
 - add the number to the corresponding sets if it's not found
 - if it completes the iterations without violations, return True
+
+** NOTE: this will take more depth and time to learn, will resume tomorrow. **
+
+Solution: see attached .py file (Python 3) ** just pseudocode because will revisit **
+
+Revisit? Yes
