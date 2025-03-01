@@ -40,3 +40,9 @@ Only the filled cells need to be validated according to the mentioned rules.
 the formula (r // 3, c // 3)
 - add the number to the corresponding sets if it's not found
 - if it completes the iterations without violations, return True
+
+Time Complexity:
+
+- Iterating through all 81 cells in the 9x9 board once, making the time complexity O(81) = O(1) (constant time).
+- Checking and inserting into a set takes O(1) time, so all operations within each cell run in constant time.
+- Summary: Since we only perform a fixed number of operations per cell, the total time complexity remains O(1).
