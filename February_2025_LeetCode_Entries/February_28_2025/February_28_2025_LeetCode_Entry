@@ -56,3 +56,16 @@ where k is the number of words in s.
 runs in O(1) on average, making the loop O(k).
 - Summary: The total time complexity is O(n) since k (the number of words) is 
 proportional to n (length of s).
+
+Space Complexity:
+
+- The words = s.split() creates a list of words, taking O(n) space in the worst
+case (when every character in s is a separate word).
+- The char_to_word and word_to_char store up to O(k) key-value pairs.
+- In the worst case, when all the elements are unique, they take O(n) space.
+- The dominant space usage comes from storing words and dictionaries.
+- Summary: The total space complexity is O(n).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
