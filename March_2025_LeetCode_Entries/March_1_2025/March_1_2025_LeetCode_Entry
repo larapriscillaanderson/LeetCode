@@ -15,8 +15,10 @@ Level: Medium
 Goal: A string is considered beautiful if it satisfies the following conditions:
 
 Each of the 5 English vowels ('a', 'e', 'i', 'o', 'u') must appear at least once in it.
-The letters must be sorted in alphabetical order (i.e. all 'a's before 'e's, all 'e's before 'i's, etc.).
-For example, strings "aeiou" and "aaaaaaeiiiioou" are considered beautiful, but "uaeio", "aeoiu", and "aaaeeeooo" are not beautiful.
+The letters must be sorted in alphabetical order (i.e. all 'a's before 'e's, all 'e's 
+before 'i's, etc.).
+For example, strings "aeiou" and "aaaaaaeiiiioou" are considered beautiful, 
+but "uaeio", "aeoiu", and "aaaeeeooo" are not beautiful.
 
 Given a string word consisting of English vowels, return the length of the longest beautiful substring of word. If no such substring exists, return 0.
 
@@ -36,3 +38,9 @@ all 5 vowels appear at least once
 'i' appears after 'o' but before 'e', reset and start fresh
 - whenever there is a valid window (all vowels are present and in order),
 update the maximum length
+
+** NOTE: this will take more depth and time to learn, will resume tomorrow. **
+
+Solution: see attached .py file (Python 3) ** just pseudocode because will revisit **
+
+Revisit? Yes
