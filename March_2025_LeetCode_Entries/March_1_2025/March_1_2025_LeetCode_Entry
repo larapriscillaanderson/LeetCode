@@ -1,0 +1,38 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 60 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 1, 2025
+
+LeetCode Problem: Longest Substring Of All Vowels in Order
+Link: https://leetcode.com/problems/intersection-of-two-arrays/
+
+Level: Medium
+
+**Notes:**
+
+Goal: A string is considered beautiful if it satisfies the following conditions:
+
+Each of the 5 English vowels ('a', 'e', 'i', 'o', 'u') must appear at least once in it.
+The letters must be sorted in alphabetical order (i.e. all 'a's before 'e's, all 'e's before 'i's, etc.).
+For example, strings "aeiou" and "aaaaaaeiiiioou" are considered beautiful, but "uaeio", "aeoiu", and "aaaeeeooo" are not beautiful.
+
+Given a string word consisting of English vowels, return the length of the longest beautiful substring of word. If no such substring exists, return 0.
+
+A substring is a contiguous sequence of characters in a string.
+
+- initial thoughts: must contain all 5 vowels, must be in sorted order,
+thus a sliding window approach should be ideal
+- the substring should have at least one 'a', 'e', 'i', 'o', 'u'
+- the characters must be increasing in order, 'a' before 'e' etc
+- since the goal is to find the longest contiguous valid segment,
+a two-pointer sliding window approach makes sense
+- one pointer start could represent the beginning of the window
+- another pointer end could expand the window
+- to track the unique vowels in the window, use a set to ensure
+all 5 vowels appear at least once
+- there needs to be a reset upon violation, so if the order breaks,
+'i' appears after 'o' but before 'e', reset and start fresh
+- whenever there is a valid window (all vowels are present and in order),
+update the maximum length
