@@ -38,3 +38,11 @@ all 5 vowels appear at least once
 'i' appears after 'o' but before 'e', reset and start fresh
 - whenever there is a valid window (all vowels are present and in order),
 update the maximum length
+
+Time Complexity:
+
+- The outer loop iterates over each character in word, which is O(n).
+- Checking conditions and updating the set within the loop takes O(1) per iteration.
+- The worst-case scenario involves iterating through all n characters while maintaining
+a constant-sized vowel set.
+- Summary: The total time complexity is O(n) since there is a single pass through the string.
