@@ -46,3 +46,14 @@ Time Complexity:
 - The worst-case scenario involves iterating through all n characters while maintaining
 a constant-sized vowel set.
 - Summary: The total time complexity is O(n) since there is a single pass through the string.
+
+Space Complexity:
+
+- Use a constant-sized set to track unique vowels, which will hold at most 5 elements.
+- Other variables like start, max_length take O(1) space.
+- Summary: The total space complexity is O(1) because only a fixed number of elements
+are stored, regardless of input size.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
