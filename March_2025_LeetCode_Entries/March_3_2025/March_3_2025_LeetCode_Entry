@@ -31,4 +31,16 @@ Time Complexity:
 - Sliding the window across the array is a loop that runs (n-k) times
 (for i in range(k, len(nums))) is O(n - k) ≈ O(n).
 - Returning the result is just simple division (max_sum / k), O(1).
+- O(k) (first sum) + O(n) (sliding window) + O(1) (division)
+- Since k is at most n, the dominant term is O(n).
 - Summary: The total time complexity is O(n).
+
+Space Complexity:
+
+- Not making a copy of the array, only reading from it.
+- Variables used, window_sum, max_sum, k, i, are all O(1).
+- Summary: The total space complexity is O(1).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
