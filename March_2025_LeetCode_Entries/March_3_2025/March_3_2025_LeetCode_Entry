@@ -24,3 +24,11 @@ cannot rearrange elements
 to update the sum in constant time
 - key idea: keep track of the maximum sum while iterating
 - calculate the maximum average by dividing the max sum by k
+
+Time Complexity:
+
+- Computing the first window sum (sum(nums[:k])) is O(k).
+- Sliding the window across the array is a loop that runs (n-k) times
+(for i in range(k, len(nums))) is O(n - k) ≈ O(n).
+- Returning the result is just simple division (max_sum / k), O(1).
+- Summary: The total time complexity is O(n).
