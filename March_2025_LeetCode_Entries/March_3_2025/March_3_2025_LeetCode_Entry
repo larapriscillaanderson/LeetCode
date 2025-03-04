@@ -1,0 +1,26 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 62 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 3, 2025
+
+LeetCode Problem: Maximum Average Subarray I
+Link: https://leetcode.com/problems/maximum-average-subarray-i/
+
+Level: Easy
+
+**Notes:**
+
+Goal: You are given an integer array nums consisting of n elements, and an integer k.
+
+Find a contiguous subarray whose length is equal to k that has the maximum average value and return this value. Any answer with a calculation error less than 10-5 will be accepted.
+
+- initial thoughts: since the goal involves returning a contiguous subarray,
+cannot rearrange elements
+- could use a sliding window approach to keep track of the sum
+- instead of computing the sum for every subarray, maintain a running sum of k elements
+- as the iteration continues, substract the outgoing element and add the incoming element
+to update the sum in constant time
+- key idea: keep track of the maximum sum while iterating
+- calculate the maximum average by dividing the max sum by k
