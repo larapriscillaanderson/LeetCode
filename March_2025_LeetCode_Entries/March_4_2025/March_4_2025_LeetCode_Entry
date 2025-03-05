@@ -30,3 +30,9 @@ instead of a negative profit
 - as the for loop traverses, update min_price (lowest buy price so far) and calculate
 profit = prices[r] - min_price
 - all the while keeping track of the max profit encountered
+
+Time Complexity:
+
+- Only loop through the array once in a single pass.
+- Each price is processed exactly once, no nested loops, no redundant work.
+- Summary: The total time complexity is O(n).
