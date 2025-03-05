@@ -36,3 +36,13 @@ Time Complexity:
 - Only loop through the array once in a single pass.
 - Each price is processed exactly once, no nested loops, no redundant work.
 - Summary: The total time complexity is O(n).
+
+Space Complexity:
+
+- Only use two variables: min_price and max_profit.
+- No extra data structures, no additional storage per input size.
+- Summary: The total space complexity is O(1).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
