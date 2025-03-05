@@ -1,0 +1,32 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 63 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 4, 2025
+
+LeetCode Problem: Best Time to Buy and Sell Stock
+Link: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+Level: Easy
+
+**Notes:**
+
+Goal: You are given an array prices where prices[i] is the price of a given stock on the ith day.
+
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+
+Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+
+- initial thoughts: need to buy stocks before they sell, no shorting stocks allowed
+- must have buying day come before selling day
+- goal is to maximize profit, so looking for biggest price jump
+- there needs to be an edge case limitation because this question is dealing with money
+- if there is no profitable trade, aka if prices only go down, should return 0
+instead of a negative profit
+- a brute force approach would be a bad idea, because it would involve checking every possible pair
+- an optimized approach would be sliding window and two pointer solution
+- use a left pointer (l) for buying and right pointer (r) for selling
+- as the for loop traverses, update min_price (lowest buy price so far) and calculate
+profit = prices[r] - min_price
+- all the while keeping track of the max profit encountered
