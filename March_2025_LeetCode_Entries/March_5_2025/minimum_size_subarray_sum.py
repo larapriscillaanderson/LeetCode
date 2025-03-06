@@ -1,4 +1,4 @@
-# Pseudocode
+# pseudocode
 
 # 1. Initialize variables:
 #    - `left = 0` → Left pointer for the sliding window
