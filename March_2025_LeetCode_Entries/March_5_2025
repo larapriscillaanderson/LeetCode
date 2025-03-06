@@ -24,4 +24,9 @@ the window dynamically
 - once the sum is valid, shrink the window from the left to minimize the size,
 while keeping the sum >= target
 - also keeping track of the miniumum length found
- 
+
+** NOTE: this will take more depth and time to learn, will resume tomorrow. **
+
+Solution: see attached .py file (Python 3) ** just pseudocode because will revisit **
+
+Revisit? Yes
