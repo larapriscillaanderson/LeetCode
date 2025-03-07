@@ -1,0 +1,26 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 65 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 6, 2025
+
+LeetCode Problem: Minimum Size Subarray Sum
+Link: https://leetcode.com/problems/minimum-size-subarray-sum/
+
+Level: Medium
+
+**Notes:**
+
+Goal: Given an array of positive integers nums and a positive integer target, 
+return the minimal length of a subarray whose sum is greater than or equal to target. 
+If there is no such subarray, return 0 instead.
+
+- initial ideas: this can be solved using a variable sliding window approach
+- since the goal is to find the minimal length of a subarray, need to adjust
+the window dynamically
+- use two pointers left and right to define the window
+- expand the right pointer to increase the sum until it meets or exceeds the target
+- once the sum is valid, shrink the window from the left to minimize the size,
+while keeping the sum >= target
+- also keeping track of the miniumum length found
