@@ -36,3 +36,16 @@ from index 0 to n - 1, which is O(n).
 - Since both the right and left pointers move at most N steps combined, 
 the total complexity remains O(n) + O(n) = O(n).
 - Summary: The total time complexity is O(n), linear time.
+
+Space Complexity:
+
+- The left, current_sum, and min_length are scalar variables, which take O(1) space.
+- No extra data structures, like lists, hashmaps, or recursion were used
+that would increase space.
+- The function modifies the current sum and the two pointers in place.
+- Summary: The extra memory used is independent of input size, 
+thus the space complexity is O(1), constant space.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
