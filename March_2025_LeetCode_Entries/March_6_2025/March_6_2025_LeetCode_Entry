@@ -24,3 +24,15 @@ the window dynamically
 - once the sum is valid, shrink the window from the left to minimize the size,
 while keeping the sum >= target
 - also keeping track of the miniumum length found
+
+Time Complexity:
+
+- The for loop iterates over the array once, meaning the right pointer moves
+from index 0 to n - 1, which is O(n).
+- The while loop moves the left pointer forward when current_sum ≥ target.
+- Each element is added to current_sum once and removed at most once.
+- This means the left pointer also moves at most N times in total.
+- Thus, the while loop runs in O(n) across the entire execution.
+- Since both the right and left pointers move at most N steps combined, 
+the total complexity remains O(n) + O(n) = O(n).
+- Summary: The total time complexity is O(n), linear time.
