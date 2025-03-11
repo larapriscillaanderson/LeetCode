@@ -1,1 +1,34 @@
-# placeholder
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 68 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 9, 2025
+
+LeetCode Problem: Permutation in String
+Link: https://leetcode.com/problems/permutation-in-string/
+
+Level: Medium
+
+**Notes:**
+
+Goal: Given two strings s1 and s2, return true if s2 contains a permutation of s1, or false otherwise.
+
+In other words, return true if one of s1's permutations is the substring of s2.
+
+- initial ideas: a permutation of a string is a reaaraangement of its characters
+- a sliding window approach would allow for checking all possible substrings of
+length string 1 in string 2
+- first have an edge case check to see if string 1 > string 2, because the permutations of 
+string 1 won't be able to fit in string 2
+- use a frequency count of characters in string 1 and the current sliding window of 
+string 2 to track whether they match
+- if the characters match at any point, return true
+- for the sliding window, initialize it to be the length of string 1 and slide it
+across string 2
+- for each new position of the window, the frequency count should be updated
+- add the new character from the right side of the window
+- remove the old character from the left side of the window
+- after each window shift, compare the frequency of the character count of the 
+current window with string 1 
+- if they match, return true
