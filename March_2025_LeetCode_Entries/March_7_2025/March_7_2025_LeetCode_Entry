@@ -5,11 +5,22 @@ Day 66 of 2025, this is my LeetCode Journal Entry where I will contribute my not
 
 March 7, 2025
 
-LeetCode Problem: Placeholder
-Link: placeholder
+LeetCode Problem: Reverse String
+Link: https://leetcode.com/problems/reverse-string/
 
-Level: Medium
+Level: Easy
 
 **Notes:**
 
-Goal: 
+Goal: Write a function that reverses a string. The input string is given as an array of characters s.
+
+You must do this by modifying the input array in-place with O(1) extra memory.
+
+- initial thoughts: given a list of characters, not a string
+- must reverse the list in place, so can't use built in functions .reverse() or [::-1]
+to create a new list
+- key idea: strings are immutable in Python, but lists are mutable, can modify s directly
+- initial approach: using two pointers is an efficient to swap elements without extra space
+- could use two pointers, one at the beginning (left) and one at the end (right)
+- swap characters at left and right
+- move left forward and right backward until they meet in the middle
