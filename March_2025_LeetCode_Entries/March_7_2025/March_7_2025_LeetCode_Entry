@@ -33,3 +33,13 @@ forward and the right pointer moves backward at each iteration.
 - For a list of length n, the number of iterations is approximately n / 2.
 - Swapping takes constant time per iteration, and moving the pointers also takes constant time.
 - Summary: The total time complexity is linear O(n).
+
+Space Complexity:
+
+- The function modifies the list in place, there is no extra space used to store a new list.
+- Only using two variables left and right, which are both constant in terms of space.
+- Summary: The total space complexity is constant O(1).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
