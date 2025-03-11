@@ -32,3 +32,12 @@ across string 2
 - after each window shift, compare the frequency of the character count of the 
 current window with string 1 
 - if they match, return true
+
+Time Complexity:
+
+- The algorithm iterates through s2 once to initialize the sliding window 
+(first window_size characters) and then slides the window one character at a 
+time for the remaining characters in s2.
+- Each window operation (adding and removing characters) involves constant time operations, 
+as it only updates the frequency counts.
+- Summary: The total time complexity is O(n).
