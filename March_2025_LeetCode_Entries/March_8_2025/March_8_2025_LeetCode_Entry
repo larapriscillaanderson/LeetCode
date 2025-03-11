@@ -24,3 +24,11 @@ Return s after reversing it.
 - move the two pointers towards each other, swapping letters when both pointers 
 point to English letters
 - stop when the two pointers cross or meet
+
+Time Complexity:
+
+- Converting the string to a list takes O(n) time, where n is the length of the string s.
+- The while loop runs at most n times in total, since each pointer moves toward the center 
+of the string with each iteration.
+- The final step converting the list back into a string also takes O(n) time.
+- Summary: The total time complexity is O(n).
