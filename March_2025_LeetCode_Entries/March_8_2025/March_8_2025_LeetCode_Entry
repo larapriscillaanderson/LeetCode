@@ -1,1 +1,26 @@
-# placeholder
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 67 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 8, 2025
+
+LeetCode Problem: Reverse Only Letters
+Link: https://leetcode.com/problems/reverse-only-letters/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given a string s, reverse the string according to the following rules:
+
+All the characters that are not English letters remain in the same position.
+All the English letters (lowercase or uppercase) should be reversed.
+Return s after reversing it.
+
+- initial ideas: string can contain both English letters and non-letter characters
+- could use the isaplha() built in function to check whether a character is an English letter
+- could use a two pointer technique, one at the beginning of the string, and one at the end
+- move the two pointers towards each other, swapping letters when both pointers 
+point to English letters
+- stop when the two pointers cross or meet
