@@ -32,3 +32,12 @@ Time Complexity:
 of the string with each iteration.
 - The final step converting the list back into a string also takes O(n) time.
 - Summary: The total time complexity is O(n).
+
+Space Complexity:
+
+- The string to list conversion takes O(n) extra space to store the list.
+- Summary: The total space complexity is O(n).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
