@@ -41,3 +41,14 @@ time for the remaining characters in s2.
 - Each window operation (adding and removing characters) involves constant time operations, 
 as it only updates the frequency counts.
 - Summary: The total time complexity is O(n).
+
+Space Complexity: 
+
+- The space used is primarily for the two frequency arrays, s1_freq and window_freq, 
+both of which have a fixed size of 26 (for each letter of the alphabet).
+- The space required doesn't grow with the size of the input strings s1 and s2.
+- Summary: The total space complexity is O(1).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
