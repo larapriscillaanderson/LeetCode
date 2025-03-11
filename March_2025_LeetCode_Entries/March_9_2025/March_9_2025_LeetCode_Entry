@@ -32,3 +32,9 @@ across string 2
 - after each window shift, compare the frequency of the character count of the 
 current window with string 1 
 - if they match, return true
+
+** NOTE: this will take more depth and time to learn, will resume tomorrow. **
+
+Solution: see attached .py file (Python 3) ** just pseudocode because will revisit **
+
+Revisit? Yes
