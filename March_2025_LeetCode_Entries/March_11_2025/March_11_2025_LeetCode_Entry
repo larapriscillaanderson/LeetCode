@@ -1,0 +1,28 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 70 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 10, 2025
+
+LeetCode Problem: Find Pivot Index
+Link: https://leetcode.com/problems/find-pivot-index/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given an array of integers nums, calculate the pivot index of this array.
+
+The pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right.
+
+If the index is on the left edge of the array, then the left sum is 0 because there are no elements to the left. This also applies to the right edge of the array.
+
+Return the leftmost pivot index. If no such index exists, return -1.
+
+- initial ideas: can't iterate over all the indices and sum up left and right parts each time
+- instead of recalculating left/right sums every time, can use a running sum approach
+- have a total sum variable to keep track of the total sum of the array
+- have a left sum variable to keep track of the left sum before index i
+- have a right sum variable to keep track of the right sum after index i
+- this way the iteration is only once, keeping track of the left sum and update it as it moves forward
