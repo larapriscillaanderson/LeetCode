@@ -26,3 +26,8 @@ Return the leftmost pivot index. If no such index exists, return -1.
 - have a left sum variable to keep track of the left sum before index i
 - have a right sum variable to keep track of the right sum after index i
 - this way the iteration is only once, keeping track of the left sum and update it as it moves forward
+
+Time Complexity:
+
+- Iteration through the array only occurs once.
+- The total time complexity is O(n).
