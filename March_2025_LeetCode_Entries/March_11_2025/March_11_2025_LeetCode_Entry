@@ -30,4 +30,13 @@ Return the leftmost pivot index. If no such index exists, return -1.
 Time Complexity:
 
 - Iteration through the array only occurs once.
-- The total time complexity is O(n).
+- Summary: The total time complexity is O(n).
+
+Space Complexity:
+
+- There are only a few extra variables used like total sum and left sum.
+- Summary: The total space complexity is O(1).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
