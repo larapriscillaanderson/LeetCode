@@ -34,3 +34,9 @@ which should the size of string p
 - compare the frequency counts, if they match, store the index
 - continue until scanned all possible windows in string s
 - return the list of starting indices where anagrams of string p were found
+
+** NOTE: this will take more depth and time to learn, will resume tomorrow. **
+
+Solution: see attached .py file (Python 3) ** just pseudocode because will revisit **
+
+Revisit? Yes
