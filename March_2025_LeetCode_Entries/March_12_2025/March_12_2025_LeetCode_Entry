@@ -1,0 +1,36 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 71 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 12, 2025
+
+LeetCode Problem: Find All Anagrams in a String
+Link: https://leetcode.com/problems/find-all-anagrams-in-a-string/
+
+Level: Medium
+
+**Notes:**
+
+Goal: Given two strings s and p, return an array of all the start indices of p's anagrams in s. 
+You may return the answer in any order.
+
+- initial thoughts: have to find an anagram, same characters in a different arrangement, of the
+characters in string p within larger search string s
+- since the anagram must have exactly the same characters with the same frequency, can use a 
+character frequency count, hash map or array
+- instead of checking through every possible substring, can use a sliding window to efficiently
+move through string s
+- the window will always have the same length as string p, because an anagram must match 
+the length of string p
+- keeping track of the character count inside the window can be used in comparison
+with the frequency count of string p
+- initial approach: sliding window
+- start by building frequency maps for string p and the first window of string s,
+which should the size of string p
+- slide the window one character at a time
+- remove the leftmost character, going out of the window
+- add the next character, expanding the window
+- compare the frequency counts, if they match, store the index
+- continue until scanned all possible windows in string s
+- return the list of starting indices where anagrams of string p were found
