@@ -34,3 +34,16 @@ which should the size of string p
 - compare the frequency counts, if they match, store the index
 - continue until scanned all possible windows in string s
 - return the list of starting indices where anagrams of string p were found
+
+Time Complexity:
+
+- Iterating over string p once in buld_freq_map(p) takes O(m) time where m = len(p).
+- Iterating over the first m characters in string s also takes O(m) time.
+- So far, O(m) + O(m) = O(m).
+- Comparing two dictionaries (p_count and window_count) takes O(26) = O(1) time 
+because there are only at most 26 lowercase letters in the English alphabet.
+- So far O(m) + O(1) ~ O(m).
+- Sliding the window across string s from index m to n - 1, involves n = len(s).
+- Removing leftmost, adding rightmost, and comparing window_count with p_count = O(1).
+- Doing this for n - m steps is O(n-m) ~ O(n).
+- Summary: The total time complexity is O(n).
