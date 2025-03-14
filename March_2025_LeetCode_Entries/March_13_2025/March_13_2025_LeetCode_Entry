@@ -47,3 +47,15 @@ because there are only at most 26 lowercase letters in the English alphabet.
 - Removing leftmost, adding rightmost, and comparing window_count with p_count = O(1).
 - Doing this for n - m steps is O(n-m) ~ O(n).
 - Summary: The total time complexity is O(n).
+
+Space Complexity:
+
+- The frequency map p_count stores at most 26 key-value pairs, which is O(1).
+- The frequency map window_count stores at most 26 key-value pairs, which is O(1).
+- The result stores indices, which in the worst case: all n characters in string s 
+could be valid anagram starts. This would be O(n) in the worst case.
+- Summary: The total space complexity is O(n).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
