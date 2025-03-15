@@ -25,3 +25,11 @@ Return s​​​​​​ after truncating it.
 - then have to join the first k words back into a string
 - this can be done using the built in functions .split() and .join()
 - the extraction of k words can be done using slicing
+- edge cases to consider can include if the string is empty, just return an empty string
+- if k is equal to the number of words in the string, just return the sentence
+- if k is larger than the number of words, just return the sentence
+
+Time Complexity:
+
+- The .split() and .join() operations iterate through the words once.
+- Summary: The total time complexity is O(n) where n is the length of the input string.
