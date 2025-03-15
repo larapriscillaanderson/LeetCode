@@ -33,3 +33,12 @@ Time Complexity:
 
 - The .split() and .join() operations iterate through the words once.
 - Summary: The total time complexity is O(n) where n is the length of the input string.
+
+Space Complexity:
+
+- Have to store the words in a list before rejoining them into a string.
+- Summary: The total space complexity is O(n).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
