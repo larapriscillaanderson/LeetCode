@@ -1,0 +1,27 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 73 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 14, 2025
+
+LeetCode Problem: Truncate Sentence
+Link: https://leetcode.com/problems/truncate-sentence/
+
+Level: Easy
+
+**Notes:**
+
+Goal: A sentence is a list of words that are separated by a single space with no leading or trailing spaces. 
+Each of the words consists of only uppercase and lowercase English letters (no punctuation).
+
+For example, "Hello World", "HELLO", and "hello world hello world" are all sentences.
+You are given a sentence s​​​​​​ and an integer k​​​​​​. 
+You want to truncate s​​​​​​ such that it contains only the first k​​​​​​ words. 
+Return s​​​​​​ after truncating it.
+
+- initial thoughts: need to return the first k words from the sentence
+- could use an approach to split the sentence into a list of words
+- then have to join the first k words back into a string
+- this can be done using the built in functions .split() and .join()
+- the extraction of k words can be done using slicing
