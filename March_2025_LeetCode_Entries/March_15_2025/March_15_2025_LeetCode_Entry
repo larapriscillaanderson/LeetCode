@@ -1,0 +1,20 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 74 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 15, 2025
+
+LeetCode Problem: Reverse Words in a String III
+Link: https://leetcode.com/problems/reverse-words-in-a-string-iii/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.
+
+- initial thoughts: can split the string into words, reverse each word, and then join them back together
+- the slicing approach can work well to achieve this [::-1]
+- the .split() function breaks a string into words
+- the .join() function can help reconstruct the sentence
