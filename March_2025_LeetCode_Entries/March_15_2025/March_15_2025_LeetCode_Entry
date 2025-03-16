@@ -18,3 +18,8 @@ Goal: Given a string s, reverse the order of characters in each word within a se
 - the slicing approach can work well to achieve this [::-1]
 - the .split() function breaks a string into words
 - the .join() function can help reconstruct the sentence
+
+Time Complexity:
+
+- Splitting the string, and rejoining the string are all linear processes.
+- Summary: The total time complexity is O(n).
