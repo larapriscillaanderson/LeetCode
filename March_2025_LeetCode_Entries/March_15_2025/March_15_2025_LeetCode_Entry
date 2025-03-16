@@ -23,3 +23,12 @@ Time Complexity:
 
 - Splitting the string, and rejoining the string are all linear processes.
 - Summary: The total time complexity is O(n).
+
+Space Complexity:
+
+- Storing the original list of words, the reversed list, and the result list all take O(n) space.
+- Summary: The total space complexity is O(n).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
