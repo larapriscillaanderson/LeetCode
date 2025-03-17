@@ -1,0 +1,26 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 75 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 16, 2025
+
+LeetCode Problem: Length of Last Word
+Link: https://leetcode.com/problems/length-of-last-word/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given a string s consisting of words and spaces, return the length of the last word in the string.
+
+A word is a maximal substring consisting of non-space characters only.
+
+- initial thoughts: have to differentiate between the words and spaces
+- need to identify a word as a sequence of non-space characters
+- consider that there might be trailing spaces in the string, so the last word
+may not be right at the end
+- key ideas: using .split() will break the string into words based on spaces
+- the .split() built in automatically handles multiple spaces, so it can clean up extra spaces
+- the last word's length can simply be derived using the len() function
+- access to the last word can be given by accessing its index, words[-1]
