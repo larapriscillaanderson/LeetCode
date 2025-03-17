@@ -18,9 +18,14 @@ A word is a maximal substring consisting of non-space characters only.
 
 - initial thoughts: have to differentiate between the words and spaces
 - need to identify a word as a sequence of non-space characters
-- consider that there might be trailing spaces in the string, so the last word
-may not be right at the end
+- consider that there might be trailing spaces in the string, 
+so the last word may not be right at the end
 - key ideas: using .split() will break the string into words based on spaces
 - the .split() built in automatically handles multiple spaces, so it can clean up extra spaces
 - the last word's length can simply be derived using the len() function
 - access to the last word can be given by accessing its index, words[-1]
+
+Time Complexity:
+
+- The .split() operation scans through the string once.
+- Summary: The total time complexity is O(n), where n is the length of the string.
