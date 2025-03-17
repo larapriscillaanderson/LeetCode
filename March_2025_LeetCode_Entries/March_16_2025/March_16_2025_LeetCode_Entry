@@ -29,3 +29,13 @@ Time Complexity:
 
 - The .split() operation scans through the string once.
 - Summary: The total time complexity is O(n), where n is the length of the string.
+
+Space Complexity:
+
+- The .split() method creates a list of words from the input string, 
+and the size of this list depends on the number of words in the string.
+- Summary: The total space complexity is O(n), where n is the length of the input string.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
