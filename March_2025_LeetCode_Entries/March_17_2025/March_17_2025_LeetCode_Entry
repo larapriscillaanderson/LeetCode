@@ -1,0 +1,29 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 76 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 17, 2025
+
+LeetCode Problem: Merge Strings Alternatively
+Link: https://leetcode.com/problems/merge-strings-alternately/
+
+Level: Easy
+
+**Notes:**
+
+Goal: You are given two strings word1 and word2. Merge the strings by adding letters in alternating order, starting with word1. If a string is longer than the other, append the additional letters onto the end of the merged string.
+
+Return the merged string.
+
+- initial thoughts: could use a two pointer approach and keep track of the index to fetch characters
+from both strings
+- instead of concatenating strings repeatedly (which is slow), 
+could store the characters in a list and use ''.join() at the end
+- handle the unequal lengths, if word1 is longer, append the remaining part of word1
+- if word2 is longer, append the remaining part of word2
+- initialize an empty list result to store the merged characters
+- iterate through the words up to the length of the shorter word
+- append word1[i], then word2[i] to result
+- if word1 or word2 has extra characters, append them to result
+- use "".join(result) to combine the list into a final string
