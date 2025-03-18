@@ -32,3 +32,12 @@ Time Complexity:
 
 - Iterate through the words once, where N = max(len(word1), len(word2)).
 - Summary: The total time complexity is O(n).
+
+Space Complexity:
+
+- Store the merged characters in a list before joining them.
+- Summary: The total space complexity is O(n).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
