@@ -27,3 +27,8 @@ could store the characters in a list and use ''.join() at the end
 - append word1[i], then word2[i] to result
 - if word1 or word2 has extra characters, append them to result
 - use "".join(result) to combine the list into a final string
+
+Time Complexity:
+
+- Iterate through the words once, where N = max(len(word1), len(word2)).
+- Summary: The total time complexity is O(n).
