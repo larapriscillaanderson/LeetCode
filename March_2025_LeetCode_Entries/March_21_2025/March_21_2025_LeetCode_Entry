@@ -1,0 +1,31 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 80 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 21, 2025
+
+LeetCode Problem: Split a String in Balanced Strings
+Link: https://leetcode.com/problems/split-a-string-in-balanced-strings/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Balanced strings are those that have an equal quantity of 'L' and 'R' characters.
+
+Given a balanced string s, split it into some number of substrings such that:
+
+Each substring is balanced.
+Return the maximum number of balanced strings you can obtain.
+
+- initial thoughts: since the string is already balanced, have to find the 
+smallest balanced parts through traversal
+- key idea: it not necessary to store substrings, just count how many balanced portions
+can be created
+- a running counter approach could work, when the counts are equal, have found
+a balanced substring
+- use a counter, balance = 0, to keep track of the difference between left and right
+- increment for left, decrement for right
+- initialize a count, count = 0, to track how many substrings are found
+- update balance throughout the iteration, return count at the end
