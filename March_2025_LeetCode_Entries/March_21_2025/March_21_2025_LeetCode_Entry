@@ -34,3 +34,13 @@ Time Complexity:
 
 - Only traverse the string once.
 - Summary: The total time complexity is O(n).
+
+Space Complexity:
+
+- Only integer variables like balance and count are used.
+- No additional data structures are used arrays or dictionaries.
+- Summary: The total space complexity is O(1).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
