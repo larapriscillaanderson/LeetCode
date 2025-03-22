@@ -29,3 +29,8 @@ a balanced substring
 - increment for left, decrement for right
 - initialize a count, count = 0, to track how many substrings are found
 - update balance throughout the iteration, return count at the end
+
+Time Complexity:
+
+- Only traverse the string once.
+- Summary: The total time complexity is O(n).
