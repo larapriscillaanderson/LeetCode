@@ -1,0 +1,17 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 81 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 22, 2025
+
+LeetCode Problem: To Lower Case
+Link: https://leetcode.com/problems/to-lower-case/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.
+
+- initial thoughts: could use built in method .lower()
