@@ -20,3 +20,12 @@ Time Complexity:
 
 - Each character is processed once.
 - Summary: The total time complexity is O(n), where n is the length of the string.
+
+Space Complexity:
+
+- A string is created when using the built in .lower().
+- Summary: The total space complexity is O(n).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
