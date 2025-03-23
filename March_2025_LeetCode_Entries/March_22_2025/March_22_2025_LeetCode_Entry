@@ -15,3 +15,8 @@ Level: Easy
 Goal: Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.
 
 - initial thoughts: could use built in method .lower()
+
+Time Complexity:
+
+- Each character is processed once.
+- Summary: The total time complexity is O(n), where n is the length of the string.
