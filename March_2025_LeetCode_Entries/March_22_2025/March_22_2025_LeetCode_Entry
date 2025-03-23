@@ -23,7 +23,7 @@ Time Complexity:
 
 Space Complexity:
 
-- A string is created when using the built in .lower().
+- A new string is created when using the built in .lower().
 - Summary: The total space complexity is O(n).
 
 Solution: see attached .py file (Python 3)
