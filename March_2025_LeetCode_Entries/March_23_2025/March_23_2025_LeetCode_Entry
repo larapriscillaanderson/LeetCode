@@ -1,0 +1,26 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 82 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 23, 2025
+
+LeetCode Problem: Max Consecutive Ones
+Link: https://leetcode.com/problems/max-consecutive-ones/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given a binary array nums, return the maximum number of consecutive 1's in the array.
+
+- initial thoughts: could iterate through the array, looking for 1s and keeping a count
+- if a 0 is encountered, reset the count
+- there should be a second count with differentiation
+- the max count variable will store the longest streak of 1s found
+- the current count variable will keep track of the current streak of 1s 
+- if a 1 is found, increment current count
+- if a 0 is found, update max count and reset current count to 0
+- after the loop, check once more if current count is greater than max count,
+to handle if the array ends with 1s
+- return max count
