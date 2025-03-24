@@ -24,3 +24,8 @@ Goal: Given a binary array nums, return the maximum number of consecutive 1's in
 - after the loop, check once more if current count is greater than max count,
 to handle if the array ends with 1s
 - return max count
+
+Time Complexity:
+
+- Only loop through the array once.
+- Summary: The total time complexity is O(n).
