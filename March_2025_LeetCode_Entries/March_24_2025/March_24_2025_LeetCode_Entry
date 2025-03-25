@@ -1,0 +1,31 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 83 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 24, 2025
+
+LeetCode Problem: Find the Highest Altitude
+Link: https://leetcode.com/problems/find-the-highest-altitude/
+
+Level: Easy
+
+**Notes:**
+
+Goal: There is a biker going on a road trip. The road trip consists of n + 1 points at different altitudes. 
+The biker starts his trip on point 0 with altitude equal 0.
+
+You are given an integer array gain of length n where gain[i] is the net gain in altitude between points i​​​​​​ and 
+i + 1 for all (0 <= i < n). Return the highest altitude of a point.
+
+- initial thoughts: the biker starts at altitude 0 
+- each value in gain tracks how much the altitude changes between points
+- to get the altitude at each point, add the gain[i] value to the previous altitude
+- if gain = [-5, 1, 5, 0, -7], start at altitude 0
+- 0 + (-5) = -5
+- -5 + 1 = -4 
+- -4 + 5 = 1
+- 1 + 0 = 1
+- 1 + (-7) = -6
+- final list of altitudes = [-5, -4, 1, 1, -6]
+- the highest altitude is 1
