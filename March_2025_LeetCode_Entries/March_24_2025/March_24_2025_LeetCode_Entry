@@ -29,3 +29,8 @@ i + 1 for all (0 <= i < n). Return the highest altitude of a point.
 - 1 + (-7) = -6
 - final list of altitudes = [-5, -4, 1, 1, -6]
 - the highest altitude is 1
+
+Time Complexity:
+
+- Only loop through gain once.
+- Summary: The total time complexity is O(n).
