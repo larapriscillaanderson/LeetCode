@@ -1,0 +1,24 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 84 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 25, 2025
+
+LeetCode Problem: Check If a Word Occurs As a Prefix of Any Word in a Sentence
+Link: https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/description/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given a sentence that consists of some words separated by a single space, and a searchWord, check if searchWord is a prefix of any word in sentence.
+Return the index of the word in sentence (1-indexed) where searchWord is a prefix of this word. If searchWord is a prefix of more than one word, return the index of the first word (minimum index). If there is no such word return -1.
+A prefix of a string s is any leading contiguous substring of s.
+
+- initial thoughts: given a sentence and a key word
+- need to determine if any word in the sentence starts with the given word
+- key ideas: could use .split() to first split the sentence into words
+- then use the built in method .startswith() to check if it starts with the given prefix
+- if any word starts with the prefix, return True
+- if no words match, return False
