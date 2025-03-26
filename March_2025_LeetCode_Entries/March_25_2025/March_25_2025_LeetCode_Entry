@@ -22,3 +22,13 @@ A prefix of a string s is any leading contiguous substring of s.
 - then use the built in method .startswith() to check if it starts with the given prefix
 - if any word starts with the prefix, return True
 - if no words match, return False
+
+Time Complexity:
+
+- The .split() function will split the sentence into words, which takes O(n), 
+- where n is the length of the sentence.
+- Looping through each word, worse case, will check each word.
+- If there are m words, the time complexity is O(m).
+- For each word, checking the prefix with .startswith() takes O(k), 
+- where k is the length of the prefix.
+- Summary: The total time complexity is therefore O(n+m⋅k), where:n is the length of the sentence (due to .split()),m is the number of words in the sentence, andk is the length of the prefix.
