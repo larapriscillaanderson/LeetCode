@@ -1,0 +1,30 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 85 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 26, 2025
+
+LeetCode Problem: Binary Subarrays With Sum
+Link: https://leetcode.com/problems/binary-subarrays-with-sum/
+
+Level: Medium
+
+**Notes:**
+
+Goal: Given a binary array nums and an integer goal, return the number of non-empty subarrays with a sum goal.
+
+A subarray is a contiguous part of the array.
+
+- initial thoughts: given a binary array made up of 0s and 1s
+- need to find contiguous subarrays whose sum equals goal
+- subarrays must maintain order, but can vary in length
+- the brute-force approach would involve checking all possible subarrays, but that would be inefficent
+- key approach: could use a variable sliding window to slide through nums while keeping track of sum
+- egde case: if goal = 0, need to count subarrays consisting entirely of zeros
+
+** NOTE: this will take more depth and time to learn, will resume tomorrow. **
+
+Solution: see attached .py file (Python 3) ** just pseudocode because will revisit **
+
+Revisit? Yes
