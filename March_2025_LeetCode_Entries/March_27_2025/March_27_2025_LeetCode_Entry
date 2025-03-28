@@ -22,3 +22,8 @@ A subarray is a contiguous part of the array.
 - the brute-force approach would involve checking all possible subarrays, but that would be inefficent
 - key approach: could use a variable sliding window to slide through nums while keeping track of sum
 - egde case: if goal = 0, need to count subarrays consisting entirely of zeros
+
+Time Complexity:
+
+- Traverse through nums once and perform constant time dictionary operations.
+- Summary: The total time complexity is O(n).
