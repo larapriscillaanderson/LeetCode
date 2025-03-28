@@ -27,3 +27,12 @@ Time Complexity:
 
 - Traverse through nums once and perform constant time dictionary operations.
 - Summary: The total time complexity is O(n).
+
+Space Complexity:
+
+- In the worst case, store n different prefix sums.
+- Summary: The total space complexity is O(n).
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
