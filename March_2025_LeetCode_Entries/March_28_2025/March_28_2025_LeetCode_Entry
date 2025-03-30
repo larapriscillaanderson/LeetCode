@@ -36,4 +36,12 @@ Time Complexity:
 - The while loop runs n times (as the window size decreases from n to 1).
 - The inner loop runs O(n) times for each window size.
 - The helper function takes O(n) time to check each substring.
-- Summary: The total time complexity is O(n^2).
+- Summary: The total time complexity is O(n^2) due to the nested loops and helper set operations.
+
+Space Complexity:
+
+- Summary: The total space complexity is O(n) for storing substrings and sets.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? Yes
