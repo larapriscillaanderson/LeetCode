@@ -30,3 +30,10 @@ appearing at least once
 - for each possible substring, intialize a frequency counter to track the characters
 - if a nice substring is found, and is longer than the previous ones, have to update the result
 - edge case: if the string length is 1 or no nice subtring exists, return an empty string
+
+Time Complexity:
+
+- The while loop runs n times (as the window size decreases from n to 1).
+- The inner loop runs O(n) times for each window size.
+- The helper function takes O(n) time to check each substring.
+- Summary: The total time complexity is O(n^2).
