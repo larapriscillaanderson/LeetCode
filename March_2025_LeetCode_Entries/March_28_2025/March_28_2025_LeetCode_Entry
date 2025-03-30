@@ -5,11 +5,28 @@ Day 87 of 2025, this is my LeetCode Journal Entry where I will contribute my not
 
 March 28, 2025
 
-LeetCode Problem: 
-Link: 
+LeetCode Problem: Longest Nice Substring
+Link: https://leetcode.com/problems/longest-nice-substring/
 
-Level: 
+Level: Easy
 
 **Notes:**
 
-Goal:
+Goal: A string s is nice if, for every letter of the alphabet that s contains, 
+it appears both in uppercase and lowercase. 
+For example, "abABB" is nice because 'A' and 'a' appear, and 'B' and 'b' appear. 
+However, "abA" is not because 'b' appears, but 'B' does not.
+
+Given a string s, return the longest substring of s that is nice. 
+If there are multiple, return the substring of the earliest occurrence. 
+If there are none, return an empty string.
+
+- initial thoughts: need to isolate the "nice" substrings, if there are multiple return the first one
+- if no nice substring exists, return an empty string
+- key idea: a "nice" string constitutes as one with an uppercase and lowercase version of a letter 
+appearing at least once
+- a brute force approach to check all the possible substrings might be too slow
+- approach: a sliding window could be used to check if both versions of the letter are present in the window
+- for each possible substring, intialize a frequency counter to track the characters
+- if a nice substring is found, and is longer than the previous ones, have to update the result
+- edge case: if the string length is 1 or no nice subtring exists, return an empty string
