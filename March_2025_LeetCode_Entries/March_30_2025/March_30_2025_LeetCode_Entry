@@ -24,3 +24,7 @@ check all the subarrays would be too slow
 - could use a sliding window approach to count subarrays with two pointers start and end
 - end moves through the array to expand the window
 - start moves to shrink the window when it reaches k odd numbers
+
+Time Complexity:
+
+- Summary: The time complexity is O(n) because each element is only processed once.
