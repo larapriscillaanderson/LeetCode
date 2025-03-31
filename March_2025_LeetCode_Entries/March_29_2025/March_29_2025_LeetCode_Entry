@@ -26,3 +26,9 @@ odd numbers is at most k
 - initialize left = 0 and move right across the array
 - when the window exceeds k odd numbers, move left forward
 - every step, add right - left + 1 to the count (subarrays formed)
+
+** NOTE: this will take more depth and time to learn, will resume tomorrow. **
+
+Solution: see attached .py file (Python 3) ** just pseudocode because will revisit **
+
+Revisit? Yes
