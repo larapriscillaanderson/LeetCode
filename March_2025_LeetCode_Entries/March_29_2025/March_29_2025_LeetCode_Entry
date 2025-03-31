@@ -21,11 +21,9 @@ Return the number of nice sub-arrays.
 - the presence of even numbers doesn't affect the count, but it can extend the subarray
 - since k can be small compared to the length of the array, a brute force to
 check all the subarrays would be too slow
-- could use a sliding window approach to count subarrays where the number of 
-odd numbers is at most k
-- initialize left = 0 and move right across the array
-- when the window exceeds k odd numbers, move left forward
-- every step, add right - left + 1 to the count (subarrays formed)
+- could use a sliding window approach to count subarrays with two pointers start and end
+- end moves through the array to expand the window
+- start moves to shrink the window when it reaches k odd numbers
 
 ** NOTE: this will take more depth and time to learn, will resume tomorrow. **
 
