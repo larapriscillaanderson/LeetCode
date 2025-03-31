@@ -28,3 +28,11 @@ check all the subarrays would be too slow
 Time Complexity:
 
 - Summary: The time complexity is O(n) because each element is only processed once.
+
+Space Complexity:
+
+- Summary: The space complexity is O(1) because only a few integer variables are used.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
