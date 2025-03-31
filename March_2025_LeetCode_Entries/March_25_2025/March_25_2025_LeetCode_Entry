@@ -35,7 +35,7 @@ Time Complexity:
 - For each word, checking the prefix with .startswith() takes O(k), 
 - where k is the length of the prefix.
 - Summary: The total time complexity is therefore O(n+m⋅k), where: n is the length of the sentence 
-(due to .split()),m is the number of words in the sentence, andk is the length of the prefix.
+(due to .split()), m is the number of words in the sentence, andk is the length of the prefix.
 
 Space Complexity:
 
