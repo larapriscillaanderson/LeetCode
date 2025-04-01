@@ -32,3 +32,7 @@ Given the integer array fruits, return the maximum number of fruits you can pick
 - right expands the window adding fruit types
 - approach: sliding window with two pointers plus a dictionary to keep track
 of the fruit types as keys and counts as their values
+
+Time Complexity:
+
+- Summary: The time complexity is O(n) because each fruit is added and removed at most once.
