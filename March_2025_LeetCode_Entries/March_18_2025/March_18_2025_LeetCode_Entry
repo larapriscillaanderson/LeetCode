@@ -5,11 +5,29 @@ Day 77 of 2025, this is my LeetCode Journal Entry where I will contribute my not
 
 March 18, 2025
 
-LeetCode Problem: 
-Link: 
+LeetCode Problem: Fruit Into Baskets
+Link: https://leetcode.com/problems/fruit-into-baskets/
 
-Level: 
+Level: Medium
 
 **Notes:**
 
-Goal: 
+Goal: You are visiting a farm that has a single row of fruit trees arranged from left to right. 
+The trees are represented by an integer array fruits where fruits[i] is the type of fruit the ith tree produces.
+
+You want to collect as much fruit as possible. However, the owner has some strict rules that you must follow:
+
+You only have two baskets, and each basket can only hold a single type of fruit. There is no limit on the amount of fruit each basket can hold.
+Starting from any tree of your choice, you must pick exactly one fruit from every tree (including the start tree) while moving to the right. The picked fruits must fit in one of your baskets.
+Once you reach a tree with fruit that cannot fit in your baskets, you must stop.
+Given the integer array fruits, return the maximum number of fruits you can pick.
+
+- initial thoughts: there are 2 constraints here only limited to two fruit types
+- need a way to track which fruit is in the baskets
+- if there is a third fruit type, need to remove the fruits from the left side
+- shrink the window until there are two types left
+- key idea: use two pointers, left and right
+- left can shrink the window when the baskets exceed two types of fruit
+- right expands the window adding fruit types
+- approach: sliding window with two pointers plus a dictionary to keep track
+of the fruit types as keys and counts as their values
