@@ -31,3 +31,8 @@ Return the final sentence representing the conversion from sentence to Goat Lati
 - if a word starts with a consonant, move the first letter to the end of the word and add "ma"
 - after each word, add an additional "a" for each word’s position in the sentence
 - join the words back together in a sentence
+
+Time Complexity:
+
+- Summary: Each word is processed individually, so the total time complexity is O(m * k), 
+where m is the number of words and k is the average length of a word in the sentence.
