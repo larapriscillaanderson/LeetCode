@@ -1,0 +1,25 @@
+# LeetCode
+LeetCode Solutions and Notes
+
+Day 90 of 2025, this is my LeetCode Journal Entry where I will contribute my notes and solutions for LeetCode problems.
+
+March 31, 2025
+
+LeetCode Problem: Check If Two String Arrays Are Equivalent
+Link: https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/
+
+Level: Easy
+
+**Notes:**
+
+Goal: Given two string arrays word1 and word2, return true if the two arrays represent the same string, 
+and false otherwise.
+
+A string is represented by an array if the array elements concatenated in order forms the string.
+
+- initial thoughts: have to check if concatenating all elements in word1 results in the same string 
+as concatenating all elements in word2
+- if the two resulting strings are the same, return True, otherwise return False
+- we need to concatenate all the elements in both arrays and compare them
+- key idea: the order of elements matters, cannot rearrange them
+- approach: could use the .join() built in method to concatenate lists into strings
