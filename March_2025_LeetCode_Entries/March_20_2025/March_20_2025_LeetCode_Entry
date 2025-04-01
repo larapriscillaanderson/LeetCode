@@ -36,3 +36,14 @@ Time Complexity:
 
 - Summary: Each word is processed individually, so the total time complexity is O(m * k), 
 where m is the number of words and k is the average length of a word in the sentence.
+
+Space Complexity:
+
+- Words list (words) takes O(m) space, where m is the number of words in the sentence.
+- Transformed words list (transformed_words) also takes O(m * k) space since each word 
+in the transformed list can have up to k characters.
+- Summary: The total space complexity is O(m * k), dominated by the space required to store the words and their transformed versions.
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
