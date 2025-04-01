@@ -30,3 +30,11 @@ Time Complexity:
 - Joining strings using "".join(word2) takes O(m) time, where m is the total number of characters in word2.
 - String comparison takes O(min(n, m)) time in the worst case.
 - Summary: The total time complexity is O(n+m).
+
+Space Complexity:
+
+- Summary: The total space complexity is O(n+m) because of storing two new strings, str1 and str2. 
+
+Solution: see attached .py file (Python 3)
+
+Revisit? No
