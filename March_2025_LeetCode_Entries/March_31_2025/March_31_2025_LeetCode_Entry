@@ -23,3 +23,10 @@ as concatenating all elements in word2
 - we need to concatenate all the elements in both arrays and compare them
 - key idea: the order of elements matters, cannot rearrange them
 - approach: could use the .join() built in method to concatenate lists into strings
+
+Time Complexity:
+
+- Joining strings using "".join(word1) takes O(n) time, where n is the total number of characters in word1.
+- Joining strings using "".join(word2) takes O(m) time, where m is the total number of characters in word2.
+- String comparison takes O(min(n, m)) time in the worst case.
+- Summary: The total time complexity is O(n+m).
