@@ -10,15 +10,17 @@ The month of April follows a pattern-based sprint using a structured operational
 
 April 1, 2025: Restructing and Planning
 
+** Happy April Fools' Day! **
+
 Resources:
 
-1. NeetCode's Python for Beginners – Reinforce core concepts
+1. NeetCode Python for Beginners: Reinforce core concepts
 
-2. Corey Schafer’s Python Playlists – Deeper understanding of Pythonic techniques
+2. Corey Schafer Python Playlists: Deeper understanding of Pythonic techniques
 
-3. NeetCode’s Data Structures & Algorithms Course – Strengthening DSA patterns
+3. NeetCode Data Structures & Algorithms Course: Strengthening DSA patterns
 
-4. Python Tricks by Dan Bader – Advanced Python techniques & best practices
+4. Python Tricks by Dan Bader: Advanced Python techniques & best practices
 
 💡 Future Considerations: Udemy, LinkedIn Learning, CodeAcademy, DataCamp, Microsoft Azure Certifications
 
@@ -26,9 +28,9 @@ Template:
 
 April [XX], 2025 - [Problem/Concept of the Day]
 
-☪️ Focus Area: Example: Sliding Window, Binary Search, Dynamic Programming
+⚛️ Focus Area: Example: Sliding Window, Binary Search, Dynamic Programming
 
-LeetCode Problem: [Problem Name]
+🆘 LeetCode Problem: [Problem Name]
 
 ⭕️ Link: [Insert LeetCode URL] 🔺 Level: [Easy | Medium | Hard]
 
@@ -50,7 +52,7 @@ LeetCode Problem: [Problem Name]
 
     ❤️‍🔥 Need to Revisit: [Concepts that need more work]
 
-📚 Things I’d Teach Someone Else:
+📚 Things I Would Teach Someone Else:
 
     ❓ [Key concept or technique summarized in my own words]
 
@@ -60,13 +62,13 @@ LeetCode Problem: [Problem Name]
 
 🎯 Next Steps & Plan for Tomorrow:
 
-    ✨ What’s the focus for the next session? Any gaps to close?
+    ✨ What is the focus for the next session? Any gaps to close?
 
 📊 Overall Monthly Progress Tracker:
 
     ✅ April 1, 2025: restructure journal and plan new topics for month long sprint
 
-    ✅ April 2, 2025: begin NeetCode's Python for Beginners course
+    ✅ April 2, 2025: begin NeetCode Python for Beginners course
 
 💅🏻 Girl Boss Mode Reflection for the Month (April 30, 2025):
 

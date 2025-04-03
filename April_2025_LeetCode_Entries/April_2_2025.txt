@@ -1,0 +1,110 @@
+# LeetCode
+Executive LeetCode Journal
+
+Day 92 of 365...
+
+♻️ Update: Welcome to my Executive LeetCode Journal where I track my progress, reinforce learning, 
+and apply structured problem-solving techniques. 
+
+The month of April follows a pattern-based sprint using a structured operational and efficient design.
+
+April 2, 2025: Starting NeetCode Python for Beginners Course
+
+Resources:
+
+1. NeetCode Python for Beginners: Reinforce core concepts
+
+2. Corey Schafer Python Playlists: Deeper understanding of Pythonic techniques
+
+3. NeetCode Data Structures & Algorithms Course: Strengthening DSA patterns
+
+4. Python Tricks by Dan Bader: Advanced Python techniques & best practices
+
+💡 Future Considerations: Udemy, LinkedIn Learning, CodeAcademy, DataCamp, Microsoft Azure Certifications
+
+Today:
+
+April 2, 2025 - Problem/Concept of the Day: NeetCode Python for Beginners Course
+
+⚛️ Focus Area: Introduction
+
+🆘 LeetCode Problem: [Problem Name]
+
+⭕️ Link: [Insert LeetCode URL] 🔺 Level: [Easy | Medium | Hard]
+
+💡 Notes & Thought Process:
+
+    🧐 Initial Thoughts: [What I initially considered]
+
+    The phrase Hello, world! is a special phrase in programming. 
+    In 1972 Brian Kernighan, a computer scientist, wrote a tutorial for the B programming language using this phrase. 
+    He later helped create the C programming language.
+
+    🤩 Approach: [Techniques considered: Sliding Window, Two Pointers, DP, etc.]
+
+    🥳 Optimizations: [Brute force → optimized approach]
+
+    A short cut to comment out lines of code in most code editors is to select the lines you want to comment out 
+    and press Ctrl + / (Windows / Linux) or Cmd + / (Mac). 
+    This will automatically add the # character to the beginning of each line.
+
+    😎 Challenges & Mistakes: [Where I struggled, how I fixed it]
+
+✅ Progress Tracking:
+
+    ✅ Completed: [List concepts covered]
+
+    Introduction Lessons 0-5
+
+    🚧 In Progress: [Topics still working on]
+
+    Lessons 6-81
+
+    ❤️‍🔥 Need to Revisit: [Concepts that need more work]
+
+    Understanding manipulating Python scripts for efficient automation, and scripting in other coding languages.
+
+📚 Things I Would Teach Someone Else:
+
+    ❓ [Key concept or technique summarized in my own words]
+
+    Interpreted Vs. Compiled Languages:
+    
+    - interpreted: the source code is executed line by line by an interpreter
+    - no intermediate machine code generated beforehand
+    - instead, the intepreter reads and executes the code in real time
+    - examples: Python, JavaScript, Ruby, Perl, PHP, R, Forth, MATLAB, Shell scripting (Bash)
+
+    - compiled: the source code is translated into machine code by a compiler
+    before it is executed
+    - the compiled code (called an executable) is platform-specific and can run on machine without needing
+    the original source code or compiler
+    - examples: C, C++, Java, Kotlin, Swift, Go, Rust, Ada, Erlang
+
+    ⚠️ [Common mistake & how to avoid it]
+
+    🔱 [Best analogy or real-world example]
+
+    - the antiquated, more difficult languages seem to naturally fall under the compiled category
+
+🎯 Next Steps & Plan for Tomorrow:
+
+    ✨ What is the focus for the next session? Any gaps to close?
+
+    - Dedicate more hours to go through the lessons faster.
+
+📊 Overall Monthly Progress Tracker:
+
+    ✅ April 1, 2025: restructure journal and plan new topics for month long sprint
+
+    ✅ April 2, 2025: begin NeetCode Python for Beginners course
+
+💅🏻 Girl Boss Mode Reflection for the Month (April 30, 2025):
+
+    👑 Biggest wins this month?
+
+    - Started NeetCode Python for Beginners Course.
+
+    ☘️ What concepts need reinforcement?
+
+    💜 What will I change for May?
