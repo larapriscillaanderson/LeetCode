@@ -1,14 +1,14 @@
 # LeetCode
 Executive LeetCode Journal
 
-Day 94 of 365...
+Day 95 of 365...
 
 ♻️ Update: Welcome to my Executive LeetCode Journal where I track my progress, reinforce learning, 
 and apply structured problem-solving techniques. 
 
 The month of April follows a pattern-based sprint using a structured operational and efficient design.
 
-April 4, 2025: Continuing NeetCode Python for Beginners Course
+April 5, 2025: Continuing NeetCode Python for Beginners Course
 
 Resources:
 
@@ -24,9 +24,9 @@ Resources:
 
 Today:
 
-April 4, 2025 - Problem/Concept of the Day: NeetCode Python for Beginners Course
+April 5, 2025 - Problem/Concept of the Day: NeetCode Python for Beginners Course
 
-⚛️ Focus Area: Math
+⚛️ Focus Area: Functions
 
 🆘 LeetCode Problem: [Problem Name]
 
@@ -36,30 +36,45 @@ April 4, 2025 - Problem/Concept of the Day: NeetCode Python for Beginners Course
 
     🧐 Initial Thoughts: [What I initially considered]
 
-    PEMDAS
-    Parentheses
-    Exponents
-    Multiplication and Division (from left to right)
-    Addition and Subtraction (from left to right)
-
     🤩 Approach: [Techniques considered: Sliding Window, Two Pointers, DP, etc.]
 
     🥳 Optimizations: [Brute force → optimized approach]
 
-    Exponentiation **
-    Floor Division // and Modulus %
+    Global Scope:
+    - Variables declared outside of any function have a global scope.
+    - They can be accessed from anywhere in the program, including inside functions.
+
+    Local Scope:
+    - Variables declared within a function have a local scope.
+    - They can only be accessed within the function in which they are defined.
+    - Local variables are created when the function is called and destroyed when the function exits.
 
     😎 Challenges & Mistakes: [Where I struggled, how I fixed it]
+
+    Parameter is a variable in a function definition. 
+    Arguments are the data you pass into the function's parameters when a function is called.
+
+    ex:
+
+    def greet(name):
+    msg = "Hello, " + name
+    print(msg)
+
+    greet("Alice")  # This will print "Hello, Alice"
+
+    # parameter is name
+    # argument is Alice
+    # you can change the argument to pass in a different name, but the parameter will still be name
 
 ✅ Progress Tracking:
 
     ✅ Completed: [List concepts covered]
 
-    Introduction Lessons 0-21
+    Introduction Lessons 0-30
 
     🚧 In Progress: [Topics still working on]
 
-    Lessons 22-81
+    Lessons 31-81
 
     ❤️‍🔥 Need to Revisit: [Concepts that need more work] 
 
@@ -67,12 +82,39 @@ April 4, 2025 - Problem/Concept of the Day: NeetCode Python for Beginners Course
 
     ❓ [Key concept or technique summarized in my own words]
 
-    - follow PEMDAS, and assume that floor division and modulus have the same precedence
-    as multiplication and division
-    - just add an equals sign = at the end of regular operations for in-place operators
-    - the order of operations for logical operators is NOT, AND, OR
+    - type hints for parameters help the reader or other developers understand what type of 
+    data the function expects to receive and return
+    - type hints can also indicate the function will return nothing
+
+    ex:
+
+    def add(x: int, y: int) -> int:
+    return x + y
+
+    def greet(name: str) -> None:
+    print("Hello, " + name)
 
     ⚠️ [Common mistake & how to avoid it]
+
+    - if you have a parameter with a default value, all parameters after it must also have default values
+
+    ex:
+
+    # This is valid
+    def greet(greeting="Hello", name="world"):
+        print(greeting + ", " + name + "!")
+
+    # This is valid
+    def greet(greeting, name="world"):
+        print(greeting + ", " + name + "!")
+
+    # This is NOT valid
+    def greet(greeting="Hello", name):
+        print(greeting + ", " + name + "!")
+
+    # the last version is not allowed because you cannot pass in an empty argument first
+    # it also looks weird
+    # greet(, "")
 
     🔱 [Best analogy or real-world example]
 
@@ -91,6 +133,8 @@ April 4, 2025 - Problem/Concept of the Day: NeetCode Python for Beginners Course
     ✅ April 3, 2025: continue NeetCode Python for Beginners course
 
     ✅ April 4, 2025: continue NeetCode Python for Beginners course
+
+    ✅ April 5, 2025: continue NeetCode Python for Beginners course
 
 💅🏻 Girl Boss Mode Reflection for the Month (April 30, 2025):
 

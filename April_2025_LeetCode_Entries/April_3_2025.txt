@@ -57,7 +57,7 @@ April 3, 2025 - Problem/Concept of the Day: NeetCode Python for Beginners Course
 
     ✅ Completed: [List concepts covered]
 
-    Introduction Lessons 6-15
+    Introduction Lessons 0-15
 
     🚧 In Progress: [Topics still working on]
 
