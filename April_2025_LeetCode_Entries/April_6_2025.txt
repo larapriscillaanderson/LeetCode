@@ -1,0 +1,154 @@
+# LeetCode
+Executive LeetCode Journal
+
+Day 96 of 365...
+
+♻️ Update: Welcome to my Executive LeetCode Journal where I track my progress, reinforce learning, 
+and apply structured problem-solving techniques. 
+
+The month of April follows a pattern-based sprint using a structured operational and efficient design.
+
+April 6, 2025: Continuing NeetCode Python for Beginners Course
+
+Resources:
+
+1. NeetCode Python for Beginners: Reinforce core concepts
+
+2. Corey Schafer Python Playlists: Deeper understanding of Pythonic techniques
+
+3. NeetCode Data Structures & Algorithms Course: Strengthening DSA patterns
+
+4. Python Tricks by Dan Bader: Advanced Python techniques & best practices
+
+💡 Future Considerations: Udemy, LinkedIn Learning, CodeAcademy, DataCamp, Microsoft Azure Certifications
+
+Today:
+
+April 6, 2025 - Problem/Concept of the Day: NeetCode Python for Beginners Course
+
+⚛️ Focus Area: Condiitonal Statements
+
+🆘 LeetCode Problem: [Problem Name]
+
+⭕️ Link: [Insert LeetCode URL] 🔺 Level: [Easy | Medium | Hard]
+
+💡 Notes & Thought Process:
+
+    🧐 Initial Thoughts: [What I initially considered]
+
+    Comparison Operators Overview:
+
+    == Equal to
+    != Not equal to
+    < Less than
+    > Greater than
+    <= Less than or equal to
+    >= Greater than or equal to
+
+    🤩 Approach: [Techniques considered: Sliding Window, Two Pointers, DP, etc.]
+
+    🥳 Optimizations: [Brute force → optimized approach]
+
+    - A value is falsy if it is:
+
+        False (boolean)     
+        None (NoneType)
+        0 (integer)
+        0.0 (float)
+        "" (empty string)
+        [] (empty list)
+        Most other empty collections (e.g. empty tuple, empty set, empty dictionary)
+
+    - A value is truthy if it is:
+
+        True (boolean)
+        All integers other than 0
+        All floats other than 0.0
+        All strings other than ""
+        All collections with at least one element
+
+    ex:
+
+    msg = ""
+    if msg:
+        print("Message is not empty.") # This will not be printed
+
+    msg = "Hello, World!"
+    if msg:
+        print("Message is not empty.") # This will be printed
+
+    😎 Challenges & Mistakes: [Where I struggled, how I fixed it]
+
+✅ Progress Tracking:
+
+    ✅ Completed: [List concepts covered]
+
+    Introduction Lessons 0-37
+
+    🚧 In Progress: [Topics still working on]
+
+    Lessons 38-81
+
+    ❤️‍🔥 Need to Revisit: [Concepts that need more work] 
+
+📚 Things I Would Teach Someone Else:
+
+    ❓ [Key concept or technique summarized in my own words]
+
+    - unlike functions, if statements do not create a new scope
+    - variables defined inside an if statement are accessible outside of the if statement
+
+    ex:
+
+    if True:
+        message = "Hello"
+
+    print(message)  # This will print "Hello"
+
+    ⚠️ [Common mistake & how to avoid it]
+
+    - within functions, if statements have the same scope as the function
+    - this means that variables defined inside an if statement are accessible within that function,
+    but not outside of it
+
+    ex:
+
+    def is_balance_low(balance: int):
+        if balance <= 100:
+            message = "Warning: Low balance."
+        print(message)
+
+    is_balance_low(50)  # This will print "Warning: Low balance."
+    print(message)  # This will cause an error
+
+    🔱 [Best analogy or real-world example]
+
+🎯 Next Steps & Plan for Tomorrow:
+
+    ✨ What is the focus for the next session? Any gaps to close?
+
+    - Dedicate more hours to go through the lessons faster.
+
+📊 Overall Monthly Progress Tracker:
+
+    ✅ April 1, 2025: restructure journal and plan new topics for month long sprint
+
+    ✅ April 2, 2025: begin NeetCode Python for Beginners course
+
+    ✅ April 3, 2025: continue NeetCode Python for Beginners course
+
+    ✅ April 4, 2025: continue NeetCode Python for Beginners course
+
+    ✅ April 5, 2025: continue NeetCode Python for Beginners course
+
+    ✅ April 6, 2025: continue NeetCode Python for Beginners course
+
+💅🏻 Girl Boss Mode Reflection for the Month (April 30, 2025):
+
+    👑 Biggest wins this month?
+
+    - Started NeetCode Python for Beginners Course.
+
+    ☘️ What concepts need reinforcement?
+
+    💜 What will I change for May?
