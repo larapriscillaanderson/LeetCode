@@ -1,14 +1,14 @@
 # LeetCode
 Executive LeetCode Journal
 
-Day 98 of 365...
+Day 115 of 365...
 
 ♻️ Update: Welcome to my Executive LeetCode Journal where I track my progress, reinforce learning, 
 and apply structured problem-solving techniques. 
 
 The month of April follows a pattern-based sprint using a structured operational and efficient design.
 
-April 8, 2025: Continuing NeetCode Python for Beginners Course
+April 25, 2025: Continuing NeetCode Python for Beginners Course
 
 Resources:
 
@@ -24,7 +24,7 @@ Resources:
 
 Today:
 
-April 8, 2025 - Problem/Concept of the Day: NeetCode Python for Beginners Course
+April 25, 2025 - Problem/Concept of the Day: NeetCode Python for Beginners Course
 
 ⚛️ Focus Area: **Taking a break today again to refocus**
 
@@ -86,12 +86,14 @@ April 8, 2025 - Problem/Concept of the Day: NeetCode Python for Beginners Course
 
     ✅ April 8, 2025: went on vacation
 
+    ✅ April 25, 2025: came back from vacation
+
 💅🏻 Girl Boss Mode Reflection for the Month (April 30, 2025):
 
     👑 Biggest wins this month?
 
     - Started NeetCode Python for Beginners Course.
-    - Took a break.
+    - Took a break and went on vacation.
 
     ☘️ What concepts need reinforcement?
 
