@@ -1,6 +1,6 @@
 # Programming Progress Journal
 
-🚀 Tracking evolution, 🛸 intellect, and the architecture of mastery 🌊.
+🚀 Tracking evolution, 🛸 intellect, and the architecture of mastery 🌊 during my time on Spaceship Earth 🌎.
 
 📅 Started: January 1, 2025... 🧿
 
