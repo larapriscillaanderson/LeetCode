@@ -17,12 +17,12 @@ To make this progress public, accessible, and useful for others, especially thos
 
 🧠 Topics Covered:
 
-LeetCode Algorithms (Beginner to Advanced)
-Time & Space Complexity Notes
-Data Structures & Patterns
-Cloud Platforms (AWS, Azure, GCP)
-Clean Coding Practices
-Technical Notes from My Learning Sprints
+- LeetCode Algorithms (Beginner to Advanced)
+- Time & Space Complexity Notes
+- Data Structures & Patterns
+- Cloud Platforms (AWS, Azure, GCP)
+- Sharpening Coding Practices, Monitoring Individual Development, Creating Structured Learning Environments
+- Technical Notes from My Learning Sprints
 
 📌 Reminder:
 
