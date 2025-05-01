@@ -1,8 +1,8 @@
 # Programming Progress Journal
 
-Tracking evolution, intellect, and the architecture of mastery.
+🚀 Tracking evolution, 🛸 intellect, and the architecture of mastery 🌊.
 
-📅 Started: January 1, 2025...
+📅 Started: January 1, 2025... 🧿
 
 My name is Lara Priscilla Anderson, and this journal began as a New Year’s resolution: solve LeetCode problems daily until I landed a software engineering job. 
 What started as a disciplined grind quickly became something more,... an archive of effort, evolution, and self-directed learning.
@@ -26,4 +26,4 @@ To make this progress public, accessible, and useful for others, especially thos
 
 📌 Reminder:
 
-This is a work-in-progress, just like me. Some entries are polished; others are raw. But all of them are real. And that’s the point.
+This is a work-in-progress, just like me. Some entries are polished; others are raw. But all of them are real. And that’s the point... ⚛️
