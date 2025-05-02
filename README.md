@@ -5,7 +5,7 @@
 📅 Started: January 1, 2025... 🧿
 
 My name is Lara Priscilla Anderson, and this journal began as a New Year’s resolution: solve LeetCode problems daily until I landed a software engineering job. 
-What started as a disciplined grind quickly became something more,... an archive of effort, evolution, and self-directed learning.
+What started as a disciplined grind quickly became something more... an archive of effort, evolution, and self-directed learning.
 
 Early on, I was determined to commit every single day. But as I matured in my approach, I realized that even top performers—engineers, founders, visionaries—take breaks to restructure, reflect, and re-energize. So I did the same. This journal now reflects that philosophy: consistency, yes, but with intention and grace.
 
