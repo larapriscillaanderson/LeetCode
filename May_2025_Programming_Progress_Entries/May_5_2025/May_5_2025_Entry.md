@@ -37,9 +37,9 @@ May 5, 2025
 
 - **NOTE:** I started May with detailed, structured notes, however the Hands-On Machine Learning textbook by Aurélien Géron is just waaay too dense to be uploading all of them here. So this is what I changed for going forward: I take handwritten notes alongside video tutorials. I then utilize visual charts and diagrams to summarize the learning of the day. I will post the visual aids here instead of my lengthy notes.
 
-![Machine Learning Models Chart](placeholder)
+![Machine Learning Systems Classroom Analogy Chart](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_5_2025/Machine_Learning_Classroom_Analogy.png?raw=true)
 
-![Machine Learning Models Diagram](placeholder)
+![Instance-Based Vs. Model-Based Learning](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_5_2025/Instance_Based_Vs_Model_Based_Learning.png?raw=true)
 
 ---
 
@@ -54,7 +54,7 @@ May 5, 2025
 ## 🌀 Concept Checkpoint  
 **If I had to explain this to a peer...**  
 
-> 
+>Kinda self explanatory today with the classroom analogy chart. I will say though instance based learning seems kind of slow and not really reliable for how fast the world moves. I like model based learning and it seems more like the AI that is being used on the daily learning from humans etc., as it becomes more sentient.
 
 ---
 
