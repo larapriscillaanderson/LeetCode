@@ -43,9 +43,9 @@ May 6, 2025
 
 - **NOTE:** I started May with detailed, structured notes, however the Hands-On Machine Learning textbook by Aurélien Géron is just waaay too dense to be uploading all of them here. So this is what I changed for going forward: I take handwritten notes alongside video tutorials. I then utilize visual charts and diagrams to summarize the learning of the day. I will post the visual aids here instead of my lengthy notes.
 
-![Machine Learning Challenges Summary Part 1](placeholder)
+![Machine Learning Challenges Summary Part 1](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_6_2025/Machine_Learning_Summary_Chart_Part_1.png?raw=true)
 
-![Machine Learning Challenges Summary Part 2](placeholder)
+![Machine Learning Challenges Summary Part 2](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_6_2025/Machine_Learning_Summary_Chart_Part_2.png?raw=true)
 
 ---
 
