@@ -44,17 +44,17 @@ May 7, 2025
 
 - **NOTE:** I started May with detailed, structured notes, however the Hands-On Machine Learning textbook by Aurélien Géron is just waaay too dense to be uploading all of them here. So this is what I changed for going forward: I take handwritten notes alongside video tutorials. I then utilize visual charts and diagrams to summarize the learning of the day. I will post the visual aids here instead of my lengthy notes.
 
-![Machine Learning Validation](placeholder)
+![Machine Learning Validation](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_7_2025/Machine_Learning_Validation.png?raw=true)
 
-![Overfitting Vs. Underfitting](placeholder)
+![Overfitting Vs. Underfitting](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_7_2025/Overfitting_Vs_Underfitting.png?raw=true)
 
-![Hyperparameter Tuning](placeholder)
+![Hyperparameter Tuning](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_7_2025/Hyperparameter_Tuning.png?raw=true)
 
-![Cross-Validation Techniques](placeholder)
+![Cross-Validation Techniques](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_7_2025/Cross_Validation_Techniques.png?raw=true)
 
-![Data Mismatch Strategy](placeholder)
+![Data Mismatch Strategy](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_7_2025/Data_Mismatch_Strategy.png?raw=true)
 
-![No Free Lunch Theorem](placeholder)
+![No Free Lunch Theorem](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_7_2025/No_Free_Lunch_Theorem.png?raw=true)
 
 ---
 
