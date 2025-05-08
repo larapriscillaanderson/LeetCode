@@ -91,7 +91,7 @@ Copyright 2023 Aurélien Géron, 978-1-098-12597-4.
 ---
 
 ## ✨ Reflection & Plan  
-- 😌 *What I enjoyed today*: Finishing Chapter 1 of the Hands-On Machine Learning Textboo hooray!
+- 😌 *What I enjoyed today*: Finishing Chapter 1 of the Hands-On Machine Learning Textbook hooray!
 - 🧗🏻‍♀️ *Where I got stuck but pushed through*: Taking so many notes omg this stuff is super dense
 - 📘 *Tomorrow’s Plan*: Start the Google colabs stuff
 
