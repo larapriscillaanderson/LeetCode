@@ -47,9 +47,9 @@ Copyright 2023 Aurélien Géron, 978-1-098-12597-4.
 - 🛠️ Architecture Notes:  
     - didn't take many notes today, just watched the videos
 
-![Docker Vocabulary Words](placeholder)
+![Docker Vocabulary Words](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_13_2025/Docker_Vocabulary_Words.png?raw=true)
 
-![Docker Common Commands](placeholder)
+![Docker Common Commands](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_13_2025/Docker_Common_Commands.png?raw=true)
 
 ---
 
