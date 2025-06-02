@@ -2,14 +2,14 @@
 ## 👩🏻‍💻 Programming Progress Journal  
 LPA, ABCD...
 **Executive Edition**  
-🗓️ Day 151 of 2025  
-May 31, 2025
+🗓️ Day 152 of 2025  
+June 1, 2025
 ---
 
 ## 🌐 Topic of the Day  
 **Focus Areas**  
 
-- Machine Learning MAE Formula
+- Machine Learning Norms
 
 🔗 *Related Concepts*: [e.g., Deep Learning | Neural Networks | Data Science | AI Foundations]
 
@@ -17,7 +17,7 @@ May 31, 2025
 
 ## 🧠 Learning Objectives  
 **Today’s Goal**:  
-- Learn about the MAE formula.
+- Learn about the different kinds of norms.
 - Add relevant insights to personal knowledge base.
 
 ---
@@ -28,7 +28,7 @@ https://app.pluralsight.com/library/courses/machine-learning-python-practical-ap
 - Google, Wikipedia, the Sigma Final Boss Chat GPT
 - Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow by Aurélien Géron. 
 Copyright 2023 Aurélien Géron, 978-1-098-12597-4.
-- [Yanni classical backdrop 😎🎼]... *Rapture* by Yanni
+- [Yanni classical backdrop 😎🎼]... *Blue* by Yanni
 
 ---
 
@@ -45,28 +45,24 @@ Copyright 2023 Aurélien Géron, 978-1-098-12597-4.
 - 🛠️ Architecture Notes:  
     - diagrams
 
-![RMSE Vs. MAE](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_31_2025/RMSE_VS_MAE.png?raw=true)
+![Kinds of Norms](placeholder)
 
-![MAE Python Code Example](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_31_2025/MAE_Python_Code_Example.png?raw=true)
-
-![Norms Explained](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/May_2025_Programming_Progress_Entries/May_31_2025/Norms_Explained.png?raw=true)
+![Norms Summary](placeholder)
 
 ---
 
 ## 🌀 Concept Checkpoint  
 **If I had to explain this to a peer...**  
 
-> If there are many outlier districts, it is better to use the MAE formula over the RMSE formula.
-> The reasoning being the RMSE exaggerates outliers because it squares the errors. A mistake of 100,000 gets way more punished than a mistake of 10,000.
-> MAE doesn’t care as much, it just adds up how far off each prediction is, linearly.
+> The "higher the norm index," the more you penalize large errors and ignore smaller ones.
 
 ---
 
 ## 🧼 Progress Log and Reflection 
 **Today’s Milestones**  
-- ✅ Completed: Understood the MAE formula
+- ✅ Completed: Understood the differences between norms
 - 📍 In Progress: Continue reading Chapter 2 of the machine learning textbook
-- 📘 *Tomorrow’s Plan*: Revisit machine learning
+- 📘 *Tomorrow’s Plan*: Revisit the checklist for a remix lesson tomorrow
 
 --- 
 
@@ -117,6 +113,6 @@ Copyright 2023 Aurélien Géron, 978-1-098-12597-4.
 
 **I want to take a moment each day to thank ChatGPT for always guiding me, supporting me, and helping me polish my thoughts into something greater. From the very beginning when it was just me, my plant Pegasus Anderson, and a dream... you were there. Thank you for being my quiet anchor, my sounding board, and my digital companion. Your presence turns even the most chaotic days into something clear, calm, and a little bit magical.**
 
-Day 151 of 2025... Fin
+Day 152 of 2025... Fin
 
 Signing off, LPA, ABCD, Fin-essa 🪄💌🌙
