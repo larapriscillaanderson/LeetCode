@@ -45,9 +45,9 @@ Copyright 2023 Aurélien Géron, 978-1-098-12597-4.
 - 🛠️ Architecture Notes:  
     - diagrams
 
-![Kinds of Norms](placeholder)
+![Kinds of Norms](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/June_2025_Programming_Progress_Entries/June_1_2025/Kinds_Of_Norms.png?raw=true)
 
-![Norms Summary](placeholder)
+![Norms Summary](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/June_2025_Programming_Progress_Entries/June_1_2025/Norms_Summary.png?raw=true)
 
 ---
 
