@@ -45,11 +45,11 @@ Copyright 2023 Aurélien Géron, 978-1-098-12597-4.
 - 🛠️ Architecture Notes:  
     - diagrams
 
-![Intro to Agile](placeholder)
+![Intro to Agile](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/June_2025_Programming_Progress_Entries/June_2_2025/Intro_To_Agile.png?raw=true)
 
-![Agile Workflow](placeholder)
+![Agile Workflow](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/June_2025_Programming_Progress_Entries/June_2_2025/Agile_Workflow.png?raw=true)
 
-![Agile Tracking](placeholder)
+![Agile Tracking](https://github.com/larapriscillaanderson/Programming_Progress_Journal/blob/main/June_2025_Programming_Progress_Entries/June_2_2025/Agile_Tracking.png?raw=true)
 
 ---
 
